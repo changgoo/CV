@@ -4,7 +4,8 @@ import sys
 
 
 def get_all_papers(author):
-    papers = ads.SearchQuery(q='=author:"{}"'.format(author),
+    papers = ads.SearchQuery(q='orcid:0000-0003-2896-3725'
+                             ' or =author:"{}"'.format(author),
                              sort="date",
                              max_pages=128,
                              fl=["id", "title", "author", "doi", "year",
@@ -25,13 +26,19 @@ def get_all_papers(author):
             if paper.page is not None and paper.page[0].startswith("arXiv:"):
                 aid.append(":".join(paper.page[0].split(":")[1:]))
 
+        title = paper.title[0]
+        if '<SUB>' in title:
+            title=title.replace('<SUB>','').replace('</SUB>','')
+        if 'α' in title:
+            title=title.replace('α','-alpha')
+
         all_dicts.append(dict(
             doctype=paper.doctype,
             authors=paper.author,
             year=paper.year,
             pubdate=paper.pubdate,
             doi=paper.doi[0] if paper.doi is not None else None,
-            title=paper.title[0],
+            title=title,
             pub=paper.pub,
             volume=paper.volume,
             issue=paper.issue,
@@ -52,6 +59,7 @@ if __name__ == '__main__':
         json.dump(papers, f, sort_keys=True,
                   indent=4, separators=(",", ": "))
 
+    # option for korean jobs
     if len(sys.argv) > 1:
         i=1
         output=[]
@@ -62,10 +70,6 @@ if __name__ == '__main__':
                 out.append('SCIE')
                 out.append(''.join(p['pubdate'].split('-')[:-1]))
                 title = '"{0}"'.format(p['title'])
-                if '<SUB>' in title:
-                    title=title.replace('<SUB>','').replace('</SUB>','')
-                if 'α' in title:
-                    title=title.replace('α','-alpha')
                 out.append(title)
                 out.append(' ')
                 out.append(' ')
