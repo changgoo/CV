@@ -1,6 +1,6 @@
 import json
 import ads
-import sys
+import sys,os
 
 
 def get_all_papers(author):
@@ -55,7 +55,9 @@ def get_all_papers(author):
 if __name__ == '__main__':
     papers = get_all_papers("Kim,Chang-Goo")
 
-    with open("pubs.json", "w") as f:
+    dirpath = os.path.dirname(__file__)
+
+    with open(os.path.join(dirpath,"..","data","pubs.json"), "w") as f:
         json.dump(papers, f, sort_keys=True,
                   indent=4, separators=(",", ": "))
 

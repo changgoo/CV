@@ -1,5 +1,6 @@
 from datetime import date
 import json
+import os
 import re
 from utf8totex import utf8totex
 
@@ -9,6 +10,9 @@ students = [
     "vijayan",
     "woorak",
     "kado-fong",
+    "mao",
+    "moon",
+    "lancaster"
 ]
 
 _JOURNAL_MAP = {
@@ -24,6 +28,7 @@ _JOURNAL_MAP = {
     "Nature Astronomy": "\\natureast",
     "Publications of the Astronomical Society of the Pacific": "\\pasp",
     "Publications of the Astronomical Society of Japan": "\\pasj",
+    "Publications of the Astronomical Society of Australia": "\\pasa",
 }
 
 JOURNAL_SKIP = [
@@ -57,7 +62,7 @@ def format_name(name):
     return name
 
 
-def parse_authors(paper_dict, max_authors=3):
+def parse_authors(paper_dict, max_authors=4):
     raw_authors = [utf8totex(x) for x in paper_dict['authors']]
 
     show_authors = raw_authors[:max_authors]
@@ -65,16 +70,14 @@ def parse_authors(paper_dict, max_authors=3):
     if any(['chang-goo' in x.lower() for x in show_authors]):
         # Bold my name because it makes the cut to be shown
         names = []
-        for name in show_authors:
+        for i,name in enumerate(show_authors):
             if 'chang-goo' in name.lower():
                 name = '\\textbf{Kim, Chang-Goo}'
             else:
-                for stuname in students:
-                    if stuname in name.lower():
-                        name = '\\student{' + name +'}'
-                        print(name)
-#            else:
-#                name = format_name(name)
+                if i == 0:
+                    for stuname in students:
+                        if stuname in name.lower():
+                            name = '\\student{' + name +'}'
             names.append(name)
 
         author_tex = '; '.join(names)
@@ -83,9 +86,16 @@ def parse_authors(paper_dict, max_authors=3):
             author_tex = author_tex + "~\\textit{et al.}"
 
     else:
-        # Add "incl. APW" after et al., because I'm buried in the author list
+        # Add "incl. CGK" after et al., because I'm buried in the author list
+        n_authors = len(raw_authors)
+        for i,x in enumerate(raw_authors):
+            if ('chang-goo' in x.lower()) or ("Kim, C. -G." in x):
+                i_author = i+1
         author_tex = "{0}".format(format_name(show_authors[0]))
         author_tex += "~\\textit{et al.}~(incl. \\textbf{CGK})"
+        #author_tex += "~\\textit{et al.}~(incl. \\textbf{CGK}"
+        #author_tex += "; {}/{})".format(i_author,n_authors)
+        #print(i_author,n_authors)
 
     return author_tex
 
@@ -107,8 +117,8 @@ def filter_papers(pubs):
                                   None)
 
             if pub is None:
-                print("Journal '{0}' not recognized for paper '{1}' - "
-                      " skipping...".format(p['pub'], p['title']))
+                #print("Journal '{0}' not recognized for paper '{1}' - "
+                #      " skipping...".format(p['pub'], p['title']))
                 continue
 
         # HACK: hard-coded skip
@@ -124,6 +134,9 @@ def get_paper_items(papers):
     refereeds = []
     preprints = []
 
+    first_refs = []
+    sec_refs = []
+    other_refs = []
     for paper in papers:
         authors = parse_authors(paper)
         entry = authors
@@ -139,7 +152,7 @@ def get_paper_items(papers):
         else:
             title = "\\textit{{{0}}}".format(utf8totex(paper["title"]))
         if '<SUB>' in title:
-            title=title.replace(' <SUB>','${}_{').replace('</SUB>','}$')
+            title=title.replace('<SUB>','${}_{').replace('</SUB>','}$')
             print(title)
         entry += ", " + title
 
@@ -175,53 +188,107 @@ def get_paper_items(papers):
                       .format(paper["url"], paper["citations"]))
 
         if is_preprint:
-            preprints.append(entry)
+            entry += (", ApJ in press")
 
-        else:
+        if True:
+        #    preprints.append(entry)
+        #else:
             refereeds.append(entry)
+            myname = "Chang-Goo"
+            if myname in paper["authors"][0]:
+                first_refs.append(entry)
+            elif (((len(paper["authors"]) > 1) and (myname in paper["authors"][1])) or
+                 "student" in authors):
+                sec_refs.append(entry)
+            else:
+                other_refs.append(entry)
+
 
     # Now go through and add the \item and numbers:
     for corpus in [preprints, refereeds]:
         for i, item in enumerate(corpus):
             num = len(corpus) - i
-            corpus[i] = ("\\item[{" + #\\color{deemph}\\scriptsize" +
-                         str(num) + ".}]" + item)
+            corpus[i] = ("\\item[{" + str(num) + ".}]" + item)
 
-    return refereeds, preprints
+    nums = range(len(refereeds)+1)[::-1]
+    j=0
+    for corpus in [first_refs, sec_refs, other_refs]:
+        for i, item in enumerate(corpus):
+            #num = len(corpus) - i
+            num = j+1 # nums[j]
+            corpus[i] = ("\\item[{" + str(num) + ".}]" + item)
+            j+=1
+
+
+    return refereeds, preprints, first_refs, sec_refs, other_refs
 
 
 if __name__ == '__main__':
     from os import path
-    if not path.exists('pubs.json'):
+    dirpath = path.join(path.dirname(__file__),'../data')
+    pubs_file = path.join(dirpath,'pubs.json')
+    if not path.exists(pubs_file):
         raise FileNotFoundError("File 'pubs.json' not found - run get_pubs.py "
                                 "before running this script.")
 
-    with open("pubs.json", "r") as f:
+    with open(pubs_file, "r") as f:
         pubs = json.loads(f.read())
 
     papers = filter_papers(pubs)
-    refs, unrefs = get_paper_items(papers)
+    refs, unrefs, first_refs, sec_refs, other_refs = get_paper_items(papers)
 
     # Compute citation stats
     nref = len(refs)
-    nfirst = sum(1 for p in papers if "Chang-Goo" in p["authors"][0])
     cites = sorted((p["citations"] for p in papers), reverse=True)
     ncitations = sum(cites)
-    hindex = sum(c >= i for i, c in enumerate(cites))
 
-    summary = (("refereed: {1} --- first author: {2} --- citations: {3} --- "
-               "h-index: {4} (\\textit{{{0}}})")
-               .format(date.today(), nref, nfirst, ncitations, hindex))
+    # Compute for specific conditions
+    myname = "Chang-Goo"
+    nfirst = 0
+    nsec = 0
+    cites_first = []
+    cites_sec = []
+    for p in papers:
+        if myname in p["authors"][0]:
+            nfirst += 1
+            cites_first.append(p["citations"])
+        elif len(p["authors"]) > 1:
+            authors = parse_authors(p)
+            if ((myname in p["authors"][1]) or ("student" in authors)):
+                nsec += 1
+                cites_sec.append(p["citations"])
+    cites_first = sorted(cites_first, reverse=True)
+    ncitations_first = sum(cites_first)
+    cites_sec = sorted(cites_sec, reverse=True)
+    ncitations_sec = sum(cites_sec)
+    hindex = sum(c > i for i, c in enumerate(cites))
+    hindex_first = sum(c > i for i, c in enumerate(cites_first))
 
+    summary = (("Metrics for Refereed Publications "
+                "(from \\href{{\\adsurl}}{{ADS}} as of \\textit{{{0}}}) --- "
+                "count: {1} --- citations: {4} --- h-index: {7}")
+               .format(date.today(), nref, nfirst, nsec,
+                       ncitations, ncitations_first, ncitations_sec,
+                       hindex, hindex_first))
     print("-"*32)
     print("Summary:")
     print(summary)
 
-    with open("summary.tex", "w") as f:
-        f.write(summary)
+    summary_1st = ((" as First Author (count: {0} --- citations: {1})")
+                   .format(nfirst, ncitations_first))
 
-    with open("pubs_ref.tex", "w") as f:
-        f.write("\n\n".join(refs))
+    summary_2nd = ((" as Second Author or Student-led (count: {0} --- citations: {1})")
+                   .format(nsec, ncitations_sec))
 
-    with open("pubs_unref.tex", "w") as f:
-        f.write("\n\n".join(unrefs))
+    summary_co = ((" as Co-Author (count: {0} --- citations: {1})")
+                   .format(nref - nfirst - nsec,
+                           ncitations - ncitations_first - ncitations_sec))
+    for f, data in zip(["summary.tex","summary_1st.tex","summary_2nd.tex","summary_co.tex",
+                        "pubs_ref.tex","pubs_ref_1st.tex","pubs_ref_2nd.tex","pubs_ref_co.tex"],
+                       [summary, summary_1st, summary_2nd, summary_co,
+                           refs, first_refs, sec_refs, other_refs]):
+        with open(path.join(dirpath,f), "w") as fp:
+            if f.startswith("pubs"):
+                fp.write("\n\n".join(data))
+            else:
+                fp.write(data)
