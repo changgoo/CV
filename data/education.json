@@ -1,1 +1,14 @@
-[{"titie": "Ph.~D in Astronomy", "y1": "Mar 2005", "y2": "Feb 2011", "other": "Department of Physics and Astronomy, Seoul National University, Korea"}, {"titie": "B.~S in Astronomy", "y1": "Mar 2001", "y2": "Feb 2005", "other": "Department of Physics and Astronomy, Seoul National University, Korea"}]
+[
+    {
+        "titie":"Ph.~D in Astronomy",
+        "y1":"Mar 2005",
+        "y2":"Feb 2011",
+        "other":"Department of Physics and Astronomy, Seoul National University, Korea"
+    },
+    {
+        "titie":"B.~S in Astronomy",
+        "y1":"Mar 2001",
+        "y2":"Feb 2005",
+        "other":"Department of Physics and Astronomy, Seoul National University, Korea"
+    }
+]

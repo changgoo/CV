@@ -1,1 +1,20 @@
-[{"titie": "PI", "y1": "2022", "y2": "2024", "other": "NASA Astrophysics Theory Program; \\$415,564"}, {"titie": "PI", "y1": "2019", "y2": "None", "other": "Chandra cycle 21 (Theory); \\$85,000"}, {"titie": "Co-I", "y1": "2018", "y2": "2021", "other": "NASA TCAN (PI: Julian Borrill); \\$1,398,099"}]
+[
+    {
+        "titie":"PI",
+        "y1":"2022",
+        "y2":"2024",
+        "other":"NASA Astrophysics Theory Program; \\$415,564"
+    },
+    {
+        "titie":"PI",
+        "y1":"2019",
+        "y2":"None",
+        "other":"Chandra cycle 21 (Theory); \\$85,000"
+    },
+    {
+        "titie":"Co-I",
+        "y1":"2018",
+        "y2":"2021",
+        "other":"NASA TCAN (PI: Julian Borrill); \\$1,398,099"
+    }
+]

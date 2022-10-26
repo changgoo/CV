@@ -1,1 +1,14 @@
-[{"titie": "Bootcamp Lecturer", "y1": "2021", "y2": "2022", "other": "- Teaching basic Unix commands and remote login (ssh), software version control (git and GitHub), Python programming language and scientific programming stack"}, {"titie": "Graduate Student Instructor (Teaching Assistant)", "y1": "2005", "y2": "2010", "other": "- Grading problem sets and leading problem-solving sessions for courses including \\emph{Solar System Astronomy and Lab., Astronomical Observation \\& Lab. I \\& II, Astronomy and Lab., Introduction to Astrophysics I \\& II, Stars and Stellar Systems, Man \\& the Universe}. \\\\ - Designing and leading the Lab class for Introduction to Astronomy\\\\- Teaching scientific computing and numerical analysis -- root-finding, numerical integration, linear algebra, linear regression"}]
+[
+    {
+        "titie":"Bootcamp Lecturer",
+        "y1":"2021",
+        "y2":"2022",
+        "other":"- Teaching basic Unix commands and remote login (ssh), software version control (git and GitHub), Python programming language and scientific programming stack"
+    },
+    {
+        "titie":"Graduate Student Instructor (Teaching Assistant)",
+        "y1":"2005",
+        "y2":"2010",
+        "other":"- Grading problem sets and leading problem-solving sessions for courses including \\emph{Solar System Astronomy and Lab., Astronomical Observation \\& Lab. I \\& II, Astronomy and Lab., Introduction to Astrophysics I \\& II, Stars and Stellar Systems, Man \\& the Universe}. \\\\ - Designing and leading the Lab class for Introduction to Astronomy\\\\- Teaching scientific computing and numerical analysis -- root-finding, numerical integration, linear algebra, linear regression"
+    }
+]

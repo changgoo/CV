@@ -1,1 +1,26 @@
-[{"talk": "Invited Review", "y1": "11/2019", "y2": "None", "title": "Feedback Regulated Star Formation", "conf": "Cosmic turbulence and magnetic fields: physics of baryonic matter across time and scales", "venue": " Carg\\'ese, France"}, {"talk": "Invited Review", "y1": "3/2019", "y2": "None", "title": "Galactic Star Formation Rates", "conf": "Linking galaxies from the Epoch of initial star-formation to today", "venue": " Sydney, Australia"}, {"talk": "Invited Review", "y1": "8/2016", "y2": "None", "title": "How Do Supernovae Regulate Star Formation and Launch Galactic Winds?", "conf": "How Galaxies Form Stars", "venue": " Stockholm, Sweden"}]
+[
+    {
+        "talk":"Invited Review",
+        "y1":"11/2019",
+        "y2":"None",
+        "title":"Feedback Regulated Star Formation",
+        "conf":"Cosmic turbulence and magnetic fields: physics of baryonic matter across time and scales",
+        "venue":" Carg\\'ese, France"
+    },
+    {
+        "talk":"Invited Review",
+        "y1":"3/2019",
+        "y2":"None",
+        "title":"Galactic Star Formation Rates",
+        "conf":"Linking galaxies from the Epoch of initial star-formation to today",
+        "venue":" Sydney, Australia"
+    },
+    {
+        "talk":"Invited Review",
+        "y1":"8/2016",
+        "y2":"None",
+        "title":"How Do Supernovae Regulate Star Formation and Launch Galactic Winds?",
+        "conf":"How Galaxies Form Stars",
+        "venue":" Stockholm, Sweden"
+    }
+]

@@ -1,1 +1,20 @@
-[{"titie": "15M CPU hrs (540k SBUs)", "y1": "2022", "y2": "2024", "other": "NASA HECC"}, {"titie": "80M CPU hrs", "y1": "2018", "y2": "2021", "other": "NERSC, (PI: Julian Borrill)"}, {"titie": "24M CPU hrs (850k SBUs)", "y1": "2016", "y2": "2021", "other": "NASA HECC, (PI: Eve Ostriker)"}]
+[
+    {
+        "titie":"15M CPU hrs (540k SBUs)",
+        "y1":"2022",
+        "y2":"2024",
+        "other":"NASA HECC"
+    },
+    {
+        "titie":"80M CPU hrs",
+        "y1":"2018",
+        "y2":"2021",
+        "other":"NERSC, (PI: Julian Borrill)"
+    },
+    {
+        "titie":"24M CPU hrs (850k SBUs)",
+        "y1":"2016",
+        "y2":"2021",
+        "other":"NASA HECC, (PI: Eve Ostriker)"
+    }
+]

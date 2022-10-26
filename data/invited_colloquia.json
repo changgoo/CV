@@ -1,1 +1,162 @@
-[{"talk": "Colloquium", "y1": "11/2022", "y2": "None", "title": "TBD", "conf": " University of Wisconsin-Madison", "venue": " Madison, WI"}, {"talk": "Colloquium", "y1": "11/2022", "y2": "None", "title": "TBD", "conf": " Osaka University", "venue": " Osaka, Japan"}, {"talk": "Colloquium", "y1": "8/2022", "y2": "None", "title": "Numerical modeling of the star-forming ISM:  SFRs, Outflows, and ISM energetics", "conf": " Korea Astronomy and Space Science Institute", "venue": " Daejeon, Korea"}, {"talk": "Colloquium", "y1": "4/2022", "y2": "None", "title": "Galactic Star Formation Rates and Multiphase Outflow Driving in the Star-Forming ISM", "conf": " University of Florida", "venue": " Gainesville, FL"}, {"talk": "Colloquium", "y1": "3/2020", "y2": "None", "title": "Self-Regulation of Star Formation Rates and Launching of Multiphase Galactic Winds", "conf": " University of Georgia", "venue": " Athens, GA"}, {"talk": "Colloquium", "y1": "2/2020", "y2": "None", "title": "Self-Regulation of Star Formation Rates and Launching of Multiphase Galactic Winds", "conf": " Waterloo", "venue": " ON, Canada"}, {"talk": "Colloquium", "y1": "3/2019", "y2": "None", "title": "Introducing TIGRESS: Where Gravity and Feedback Meet the Real ISM", "conf": " University of Maryland", "venue": " College Park, MD"}, {"talk": "Colloquium", "y1": "2/2019", "y2": "None", "title": "Introducing TIGRESS: Where Gravity and Feedback Meet the Real ISM", "conf": " Australia National University", "venue": " Canberra, Australia"}, {"talk": "Colloquium", "y1": "8/2018", "y2": "None", "title": "Star Formation Rates and Galactic Winds in TIGRESS", "conf": " Yonsei University", "venue": " Seoul, Korea"}, {"talk": "Colloquium", "y1": "8/2018", "y2": "None", "title": "Star Formation Rates and Galactic Winds in TIGRESS", "conf": " Korea Astronomy and Space Science Institute", "venue": " Daejeon, Korea"}, {"talk": "Colloquium", "y1": "5/2017", "y2": "None", "title": "Supernova as a Powerful Regulator of Galactic SFRs and Winds", "conf": " Osaka University", "venue": " Osaka, Japan"}, {"talk": "Colloquium", "y1": "2/2017", "y2": "None", "title": "Galactic Star Formation Rates Regulated by Star Formation Feedback", "conf": " University of California", "venue": " Santa Barbara, CA"}, {"talk": "Colloquium", "y1": "10/2016", "y2": "None", "title": "Self-Regulation of Star Formation Rates in Galactic Disks", "conf": " Shanghai Jiao Tong University", "venue": " Shanghai, China"}, {"talk": "Colloquium", "y1": "10/2016", "y2": "None", "title": "Supernova Driven Galactic Outflows", "conf": " Korea Astronomy and Space Science Institute", "venue": " Daejeon, Korea"}, {"talk": "Colloquium", "y1": "10/2016", "y2": "None", "title": "Supernova Driven Galactic Outflows", "conf": " Seoul National University", "venue": " Seoul, Korea"}, {"talk": "Colloquium", "y1": "9/2014", "y2": "None", "title": "Supernova Feedback in Multiphase Galactic Disks", "conf": " Seoul National University", "venue": " Seoul, Korea"}, {"talk": "Colloquium", "y1": "9/2014", "y2": "None", "title": "Supernova Feedback in Multiphase Galactic Disks", "conf": " Korea Astronomy and Space Science Institute", "venue": " Daejeon, Korea"}, {"talk": "Colloquium", "y1": "9/2014", "y2": "None", "title": "Supernova Feedback in Multiphase Galactic Disks", "conf": " Korea Institute for Advanced Study", "venue": " Seoul, Korea"}, {"talk": "Colloquium", "y1": "9/2011", "y2": "None", "title": "Regulation of Star Formation Rates in Galactic Disks", "conf": " Yonsei University", "venue": " Seoul, Korea"}, {"talk": "Colloquium", "y1": "3/2011", "y2": "None", "title": "Thermal and Dynamical Evolution of a Gaseous Medium and Star Formation in Disk Galaxies", "conf": " National Institute for Mathematical Sciences", "venue": " Daejeon, Korea"}]
+[
+    {
+        "talk":"Colloquium",
+        "y1":"11/2022",
+        "y2":"None",
+        "title":"TBD",
+        "conf":" University of Wisconsin-Madison",
+        "venue":" Madison, WI"
+    },
+    {
+        "talk":"Colloquium",
+        "y1":"11/2022",
+        "y2":"None",
+        "title":"TBD",
+        "conf":" Osaka University",
+        "venue":" Osaka, Japan"
+    },
+    {
+        "talk":"Colloquium",
+        "y1":"8/2022",
+        "y2":"None",
+        "title":"Numerical modeling of the star-forming ISM:  SFRs, Outflows, and ISM energetics",
+        "conf":" Korea Astronomy and Space Science Institute",
+        "venue":" Daejeon, Korea"
+    },
+    {
+        "talk":"Colloquium",
+        "y1":"4/2022",
+        "y2":"None",
+        "title":"Galactic Star Formation Rates and Multiphase Outflow Driving in the Star-Forming ISM",
+        "conf":" University of Florida",
+        "venue":" Gainesville, FL"
+    },
+    {
+        "talk":"Colloquium",
+        "y1":"3/2020",
+        "y2":"None",
+        "title":"Self-Regulation of Star Formation Rates and Launching of Multiphase Galactic Winds",
+        "conf":" University of Georgia",
+        "venue":" Athens, GA"
+    },
+    {
+        "talk":"Colloquium",
+        "y1":"2/2020",
+        "y2":"None",
+        "title":"Self-Regulation of Star Formation Rates and Launching of Multiphase Galactic Winds",
+        "conf":" Waterloo",
+        "venue":" ON, Canada"
+    },
+    {
+        "talk":"Colloquium",
+        "y1":"3/2019",
+        "y2":"None",
+        "title":"Introducing TIGRESS: Where Gravity and Feedback Meet the Real ISM",
+        "conf":" University of Maryland",
+        "venue":" College Park, MD"
+    },
+    {
+        "talk":"Colloquium",
+        "y1":"2/2019",
+        "y2":"None",
+        "title":"Introducing TIGRESS: Where Gravity and Feedback Meet the Real ISM",
+        "conf":" Australia National University",
+        "venue":" Canberra, Australia"
+    },
+    {
+        "talk":"Colloquium",
+        "y1":"8/2018",
+        "y2":"None",
+        "title":"Star Formation Rates and Galactic Winds in TIGRESS",
+        "conf":" Yonsei University",
+        "venue":" Seoul, Korea"
+    },
+    {
+        "talk":"Colloquium",
+        "y1":"8/2018",
+        "y2":"None",
+        "title":"Star Formation Rates and Galactic Winds in TIGRESS",
+        "conf":" Korea Astronomy and Space Science Institute",
+        "venue":" Daejeon, Korea"
+    },
+    {
+        "talk":"Colloquium",
+        "y1":"5/2017",
+        "y2":"None",
+        "title":"Supernova as a Powerful Regulator of Galactic SFRs and Winds",
+        "conf":" Osaka University",
+        "venue":" Osaka, Japan"
+    },
+    {
+        "talk":"Colloquium",
+        "y1":"2/2017",
+        "y2":"None",
+        "title":"Galactic Star Formation Rates Regulated by Star Formation Feedback",
+        "conf":" University of California",
+        "venue":" Santa Barbara, CA"
+    },
+    {
+        "talk":"Colloquium",
+        "y1":"10/2016",
+        "y2":"None",
+        "title":"Self-Regulation of Star Formation Rates in Galactic Disks",
+        "conf":" Shanghai Jiao Tong University",
+        "venue":" Shanghai, China"
+    },
+    {
+        "talk":"Colloquium",
+        "y1":"10/2016",
+        "y2":"None",
+        "title":"Supernova Driven Galactic Outflows",
+        "conf":" Korea Astronomy and Space Science Institute",
+        "venue":" Daejeon, Korea"
+    },
+    {
+        "talk":"Colloquium",
+        "y1":"10/2016",
+        "y2":"None",
+        "title":"Supernova Driven Galactic Outflows",
+        "conf":" Seoul National University",
+        "venue":" Seoul, Korea"
+    },
+    {
+        "talk":"Colloquium",
+        "y1":"9/2014",
+        "y2":"None",
+        "title":"Supernova Feedback in Multiphase Galactic Disks",
+        "conf":" Seoul National University",
+        "venue":" Seoul, Korea"
+    },
+    {
+        "talk":"Colloquium",
+        "y1":"9/2014",
+        "y2":"None",
+        "title":"Supernova Feedback in Multiphase Galactic Disks",
+        "conf":" Korea Astronomy and Space Science Institute",
+        "venue":" Daejeon, Korea"
+    },
+    {
+        "talk":"Colloquium",
+        "y1":"9/2014",
+        "y2":"None",
+        "title":"Supernova Feedback in Multiphase Galactic Disks",
+        "conf":" Korea Institute for Advanced Study",
+        "venue":" Seoul, Korea"
+    },
+    {
+        "talk":"Colloquium",
+        "y1":"9/2011",
+        "y2":"None",
+        "title":"Regulation of Star Formation Rates in Galactic Disks",
+        "conf":" Yonsei University",
+        "venue":" Seoul, Korea"
+    },
+    {
+        "talk":"Colloquium",
+        "y1":"3/2011",
+        "y2":"None",
+        "title":"Thermal and Dynamical Evolution of a Gaseous Medium and Star Formation in Disk Galaxies",
+        "conf":" National Institute for Mathematical Sciences",
+        "venue":" Daejeon, Korea"
+    }
+]

@@ -1,1 +1,50 @@
-[{"titie": "Working Group Leader", "y1": "2022", "y2": "present", "other": "\\href{https://www.learning-the-universe.org}{Simons Collaboration on Learning the Universe}"}, {"titie": "Working Group Leader", "y1": "2017", "y2": "2022", "other": "{\\href{https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/galaxy-formation/smaug/}{Simulating Multiscale Astrophysics to Understand Galaxies} (SMAUG)}"}, {"titie": "Working Group Leader", "y1": "2018", "y2": "2021", "other": "Modeling Polarized Galactic Foregrounds for Cosmic Microwave Background missions (NASA TCAN)"}, {"titie": "Member", "y1": "2022", "y2": "present", "other": "\\href{http://lem.cfa.harvard.edu}{Line Emission Mapper X-ray Probe}"}, {"titie": "Member", "y1": "2021", "y2": "present", "other": "\\href{https://www.lglbs.org}{Local Group L-Band Survey}"}, {"titie": "Member", "y1": "2020", "y2": "present", "other": "\\href{https://gaskap.anu.edu.au}{Galactic Australian Square Kilometre Array Pathfinder Survey}"}, {"titie": "Member", "y1": "2019", "y2": "2020", "other": "Space Infrared Telescope for Cosmology and Astrophysics: Nearby Galaxies Working Group"}, {"titie": "Member", "y1": "2017", "y2": "2019", "other": "Probe of Inflation and Cosmic Origins (PICO)"}]
+[
+    {
+        "titie":"Working Group Leader",
+        "y1":"2022",
+        "y2":"present",
+        "other":"\\href{https://www.learning-the-universe.org}{Simons Collaboration on Learning the Universe}"
+    },
+    {
+        "titie":"Working Group Leader",
+        "y1":"2017",
+        "y2":"2022",
+        "other":"{\\href{https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/galaxy-formation/smaug/}{Simulating Multiscale Astrophysics to Understand Galaxies} (SMAUG)}"
+    },
+    {
+        "titie":"Working Group Leader",
+        "y1":"2018",
+        "y2":"2021",
+        "other":"Modeling Polarized Galactic Foregrounds for Cosmic Microwave Background missions (NASA TCAN)"
+    },
+    {
+        "titie":"Member",
+        "y1":"2022",
+        "y2":"present",
+        "other":"\\href{http://lem.cfa.harvard.edu}{Line Emission Mapper X-ray Probe}"
+    },
+    {
+        "titie":"Member",
+        "y1":"2021",
+        "y2":"present",
+        "other":"\\href{https://www.lglbs.org}{Local Group L-Band Survey}"
+    },
+    {
+        "titie":"Member",
+        "y1":"2020",
+        "y2":"present",
+        "other":"\\href{https://gaskap.anu.edu.au}{Galactic Australian Square Kilometre Array Pathfinder Survey}"
+    },
+    {
+        "titie":"Member",
+        "y1":"2019",
+        "y2":"2020",
+        "other":"Space Infrared Telescope for Cosmology and Astrophysics: Nearby Galaxies Working Group"
+    },
+    {
+        "titie":"Member",
+        "y1":"2017",
+        "y2":"2019",
+        "other":"Probe of Inflation and Cosmic Origins (PICO)"
+    }
+]

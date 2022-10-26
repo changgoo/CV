@@ -1,0 +1,30 @@
+[
+  {
+    "name":"Eve C. Ostriker",
+    "email":"eco@astro.princeton.edu",
+    "phone":"609-258-7240",
+    "title":"Professor",
+    "affil":"Department of Astrophysical Sciences, Princeton University"
+  },
+  {
+    "name":"Rachel S. Somerville",
+    "email":"rsomerville@flatironinstitute.org",
+    "phone":"848-445-8964",
+    "title":"Group Leader",
+    "affil":"Center for Computational Astrophysics, Flatiron Institute"
+  },
+  {
+    "name":"Greg L. Bryan",
+    "email":"gbryan@astro.columbia.edu",
+    "phone":"212-854-6837",
+    "title":"Professor",
+    "affil":"Department of Astronomy, Columbia University"
+  },
+  {
+    "name":"James M. Stone",
+    "email":"jmstone@ias.edu",
+    "phone":"609-734-8054",
+    "title":"Professor",
+    "affil":"School of Natural Sciences, Institute for Advanced Study"
+  }
+]
