@@ -1,258 +1,258 @@
 [
     {
-        "talk":"Contributed Talk",
-        "y1":"8/2022",
-        "y2":"None",
-        "title":"How Are Galactic Star Formation Rates Regulated?",
-        "conf":" IAU Symposium \\#373: Resolving the Rise and Fall of Star Formation in Galaxies",
-        "venue":" Busan, Korea"
+        "talk": "Contributed Talk",
+        "y1": "8/2022",
+        "y2": "None",
+        "title": "How Are Galactic Star Formation Rates Regulated?",
+        "conf": "IAU Symposium \\#373: Resolving the Rise and Fall of Star Formation in Galaxies",
+        "venue": "Busan, Korea"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"7/2022",
-        "y2":"None",
-        "title":"Introducing TIGRESS-NCR:ISM energetics/phases and SFRs",
-        "conf":" Interstellar Institute \\#5: With Two Eyes",
-        "venue":" Orsay, France"
+        "talk": "Invited Talk",
+        "y1": "7/2022",
+        "y2": "None",
+        "title": "Introducing TIGRESS-NCR:ISM energetics/phases and SFRs",
+        "conf": "Interstellar Institute \\#5: With Two Eyes",
+        "venue": "Orsay, France"
     },
     {
-        "talk":"Contributed Talk",
-        "y1":"7/2022",
-        "y2":"None",
-        "title":"How Are Galactic Star Formation Rates Regulated?",
-        "conf":" A Holistic View of Stellar Feedback and Galaxy Evolution",
-        "venue":" Ascona, Switzerland"
+        "talk": "Contributed Talk",
+        "y1": "7/2022",
+        "y2": "None",
+        "title": "How Are Galactic Star Formation Rates Regulated?",
+        "conf": "A Holistic View of Stellar Feedback and Galaxy Evolution",
+        "venue": "Ascona, Switzerland"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"5/2022",
-        "y2":"None",
-        "title":"How Do Stellar Feedback Regulates Galactic Star Formation Rates and Drives Multiphase Outflows?",
-        "conf":" CITA",
-        "venue":" Toronto, Canada"
+        "talk": "Invited Talk",
+        "y1": "5/2022",
+        "y2": "None",
+        "title": "How Do Stellar Feedback Regulates Galactic Star Formation Rates and Drives Multiphase Outflows?",
+        "conf": "CITA",
+        "venue": "Toronto, Canada"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"10/2021",
-        "y2":"None",
-        "title":"How Are Galactic Star Formation Rates Regulated?",
-        "conf":" CEA-Saclay",
-        "venue":" Paris, France"
+        "talk": "Invited Talk",
+        "y1": "10/2021",
+        "y2": "None",
+        "title": "How Are Galactic Star Formation Rates Regulated?",
+        "conf": "CEA-Saclay",
+        "venue": "Paris, France"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"8/2021",
-        "y2":"None",
-        "title":"Multiphase Galactic Outflows inTIGRESS",
-        "conf":" Baltimore Wind Workshop 2021",
-        "venue":" Baltimore, MD"
+        "talk": "Invited Talk",
+        "y1": "8/2021",
+        "y2": "None",
+        "title": "Multiphase Galactic Outflows inTIGRESS",
+        "conf": "Baltimore Wind Workshop 2021",
+        "venue": "Baltimore, MD"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"6/2021",
-        "y2":"None",
-        "title":"The Role of Magnetic Fields in Regulating Star Formation Rates",
-        "conf":" Midwest Magnetic Field Meeting 2021",
-        "venue":" Madison, WI (remote)"
+        "talk": "Invited Talk",
+        "y1": "6/2021",
+        "y2": "None",
+        "title": "The Role of Magnetic Fields in Regulating Star Formation Rates",
+        "conf": "Midwest Magnetic Field Meeting 2021",
+        "venue": "Madison, WI (remote)"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"4/2021",
-        "y2":"None",
-        "title":"MHD Simulations of the ISM and Synthetic Dust Polarization Maps",
-        "conf":" Pan-Experiment Galactic Science Group Seminar",
-        "venue":" \\href{https://galsci.github.io}, remote"
+        "talk": "Invited Talk",
+        "y1": "4/2021",
+        "y2": "None",
+        "title": "MHD Simulations of the ISM and Synthetic Dust Polarization Maps",
+        "conf": "Pan-Experiment Galactic Science Group Seminar",
+        "venue": "\\href{https://galsci.github.io}, remote"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"8/2020",
-        "y2":"None",
-        "title":"A Perspective on the Future of ISM Simulations in the 2030s",
-        "conf":" Cosmology with CMB-S4",
-        "venue":" University of Chicago, remote"
+        "talk": "Invited Talk",
+        "y1": "8/2020",
+        "y2": "None",
+        "title": "A Perspective on the Future of ISM Simulations in the 2030s",
+        "conf": "Cosmology with CMB-S4",
+        "venue": "University of Chicago, remote"
     },
     {
-        "talk":"Contributed Talk",
-        "y1":"6/2019",
-        "y2":"None",
-        "title":"Multiphase Outflows in TIGRESS",
-        "conf":" Feedback and its Role in Galaxy Formation",
-        "venue":" Spetses, Greece"
+        "talk": "Contributed Talk",
+        "y1": "6/2019",
+        "y2": "None",
+        "title": "Multiphase Outflows in TIGRESS",
+        "conf": "Feedback and its Role in Galaxy Formation",
+        "venue": "Spetses, Greece"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"3/2019",
-        "y2":"None",
-        "title":"Fast Fourier Transform and Self Gravity",
-        "conf":" UNLV",
-        "venue":" Las Vegas, NV"
+        "talk": "Invited Talk",
+        "y1": "3/2019",
+        "y2": "None",
+        "title": "Fast Fourier Transform and Self Gravity",
+        "conf": "UNLV",
+        "venue": "Las Vegas, NV"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"2/2019",
-        "y2":"None",
-        "title":"Multiphase ISM interacting with ICM",
-        "conf":" CCA",
-        "venue":" New York, NY"
+        "talk": "Invited Talk",
+        "y1": "2/2019",
+        "y2": "None",
+        "title": "Multiphase ISM interacting with ICM",
+        "conf": "CCA",
+        "venue": "New York, NY"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"10/2018",
-        "y2":"None",
-        "title":"Synthetic Observations of TIGRESS: Dust Polarization Maps, HI 21cm Lines, and more",
-        "conf":" The Milky Way in the age of Gaia",
-        "venue":" Orsay, France"
+        "talk": "Invited Talk",
+        "y1": "10/2018",
+        "y2": "None",
+        "title": "Synthetic Observations of TIGRESS: Dust Polarization Maps, HI 21cm Lines, and more",
+        "conf": "The Milky Way in the age of Gaia",
+        "venue": "Orsay, France"
     },
     {
-        "talk":"Contributed Talk",
-        "y1":"9/2018",
-        "y2":"None",
-        "title":"Galactic Winds in TIGRESS",
-        "conf":" THINKSHOP15",
-        "venue":" Potsdam, Germany"
+        "talk": "Contributed Talk",
+        "y1": "9/2018",
+        "y2": "None",
+        "title": "Galactic Winds in TIGRESS",
+        "conf": "THINKSHOP15",
+        "venue": "Potsdam, Germany"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"7/2018",
-        "y2":"None",
-        "title":"Star Formation Rates and Galactic Winds in TIGRESS",
-        "conf":" CCA",
-        "venue":" New York, NY"
+        "talk": "Invited Talk",
+        "y1": "7/2018",
+        "y2": "None",
+        "title": "Star Formation Rates and Galactic Winds in TIGRESS",
+        "conf": "CCA",
+        "venue": "New York, NY"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"6/2018",
-        "y2":"None",
-        "title":"Synthetic Polarized Dust Emission from Self-Consistent MHD Simulations",
-        "conf":" CMB Foreground Workshop at CCA",
-        "venue":" New York, NY"
+        "talk": "Invited Talk",
+        "y1": "6/2018",
+        "y2": "None",
+        "title": "Synthetic Polarized Dust Emission from Self-Consistent MHD Simulations",
+        "conf": "CMB Foreground Workshop at CCA",
+        "venue": "New York, NY"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"4/2018",
-        "y2":"None",
-        "title":"Partner of Cosmic Rays: Multiphase ISM and Galactic Outflows",
-        "conf":" MPPC Workshop",
-        "venue":" Princeton, NJ"
+        "talk": "Invited Talk",
+        "y1": "4/2018",
+        "y2": "None",
+        "title": "Partner of Cosmic Rays: Multiphase ISM and Galactic Outflows",
+        "conf": "MPPC Workshop",
+        "venue": "Princeton, NJ"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"3/2018",
-        "y2":"None",
-        "title":"Star Formation and Galactic Winds in Self-Consistent Local ISM Simulations",
-        "conf":" Computational Galaxy Formation at Ringberg Castle",
-        "venue":" Tegernsee, Germany"
+        "talk": "Invited Talk",
+        "y1": "3/2018",
+        "y2": "None",
+        "title": "Star Formation and Galactic Winds in Self-Consistent Local ISM Simulations",
+        "conf": "Computational Galaxy Formation at Ringberg Castle",
+        "venue": "Tegernsee, Germany"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"11/2017",
-        "y2":"None",
-        "title":"Self-Consistent MHD Simulations of the Local ISM:Synthetic Polarized Dust Emission",
-        "conf":" CMB Foreground Workshop at UCSD",
-        "venue":" San Diego, CA"
+        "talk": "Invited Talk",
+        "y1": "11/2017",
+        "y2": "None",
+        "title": "Self-Consistent MHD Simulations of the Local ISM:Synthetic Polarized Dust Emission",
+        "conf": "CMB Foreground Workshop at UCSD",
+        "venue": "San Diego, CA"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"7/2017",
-        "y2":"None",
-        "title":"TIGRESS: Three-phase ISM in Galaxies Resolving Evolution with Star formation and Supernova feedback",
-        "conf":" The ISM beyond 3D",
-        "venue":" Orsay, France"
+        "talk": "Invited Talk",
+        "y1": "7/2017",
+        "y2": "None",
+        "title": "TIGRESS: Three-phase ISM in Galaxies Resolving Evolution with Star formation and Supernova feedback",
+        "conf": "The ISM beyond 3D",
+        "venue": "Orsay, France"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"2/2017",
-        "y2":"None",
-        "title":"Supernova Driven Galactic Winds and Synthetic Observations using TIGRESS",
-        "conf":" UCSB",
-        "venue":" Santa Barbara, CA"
+        "talk": "Invited Talk",
+        "y1": "2/2017",
+        "y2": "None",
+        "title": "Supernova Driven Galactic Winds and Synthetic Observations using TIGRESS",
+        "conf": "UCSB",
+        "venue": "Santa Barbara, CA"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"10/2016",
-        "y2":"None",
-        "title":"How do Supernovae Regulate Star Formation and Launch Galactic Winds?",
-        "conf":" 7th East-Asia Numerical Astrophysics Meeting",
-        "venue":" Beijing, China"
+        "talk": "Invited Talk",
+        "y1": "10/2016",
+        "y2": "None",
+        "title": "How do Supernovae Regulate Star Formation and Launch Galactic Winds?",
+        "conf": "7th East-Asia Numerical Astrophysics Meeting",
+        "venue": "Beijing, China"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"5/2016",
-        "y2":"None",
-        "title":"Star Formation and Galactic Winds Regulated by Supernovae",
-        "conf":" Computational Galaxy Formation at Ringberg Castle",
-        "venue":" Tegernsee, Germany"
+        "talk": "Invited Talk",
+        "y1": "5/2016",
+        "y2": "None",
+        "title": "Star Formation and Galactic Winds Regulated by Supernovae",
+        "conf": "Computational Galaxy Formation at Ringberg Castle",
+        "venue": "Tegernsee, Germany"
     },
     {
-        "talk":"Contributed Talk",
-        "y1":"10/2015",
-        "y2":"None",
-        "title":"Generation and Saturation of Magnetic Fields in the ISM Regulated by Star Formation Feedback",
-        "conf":" Magnetic Fields in the Universe V",
-        "venue":" Carg\\'ese, France"
+        "talk": "Contributed Talk",
+        "y1": "10/2015",
+        "y2": "None",
+        "title": "Generation and Saturation of Magnetic Fields in the ISM Regulated by Star Formation Feedback",
+        "conf": "Magnetic Fields in the Universe V",
+        "venue": "Carg\\'ese, France"
     },
     {
-        "talk":"Contributed Talk",
-        "y1":"8/2015",
-        "y2":"None",
-        "title":"Feedback Regulated Turbulence, Magnetic Fields, and SFRs in Galactic Disks",
-        "conf":" IAU Symposium \\#315",
-        "venue":" Honolulu, HI"
+        "talk": "Contributed Talk",
+        "y1": "8/2015",
+        "y2": "None",
+        "title": "Feedback Regulated Turbulence, Magnetic Fields, and SFRs in Galactic Disks",
+        "conf": "IAU Symposium \\#315",
+        "venue": "Honolulu, HI"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"4/2015",
-        "y2":"None",
-        "title":"Feedback Regulated Turbulence, Magnetic Fields, and SFRs in Galactic Disks",
-        "conf":" IAS",
-        "venue":" Princeton, NJ"
+        "talk": "Invited Talk",
+        "y1": "4/2015",
+        "y2": "None",
+        "title": "Feedback Regulated Turbulence, Magnetic Fields, and SFRs in Galactic Disks",
+        "conf": "IAS",
+        "venue": "Princeton, NJ"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"9/2014",
-        "y2":"None",
-        "title":"Feedback Regulated SFRs and HI 21cm Lines",
-        "conf":" 6th East-Asia Numerical Astrophysics Meeting",
-        "venue":" Suwon, Korea"
+        "talk": "Invited Talk",
+        "y1": "9/2014",
+        "y2": "None",
+        "title": "Feedback Regulated SFRs and HI 21cm Lines",
+        "conf": "6th East-Asia Numerical Astrophysics Meeting",
+        "venue": "Suwon, Korea"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"6/2014",
-        "y2":"None",
-        "title":"Momentum Injection by Supernovae in the ISM",
-        "conf":" KITP Program -- Gravity's Loyal Opposition",
-        "venue":" Santa Barbara, CA"
+        "talk": "Invited Talk",
+        "y1": "6/2014",
+        "y2": "None",
+        "title": "Momentum Injection by Supernovae in the ISM",
+        "conf": "KITP Program -- Gravity's Loyal Opposition",
+        "venue": "Santa Barbara, CA"
     },
     {
-        "talk":"Contributed Talk",
-        "y1":"4/2013",
-        "y2":"None",
-        "title":"Long-Term Evolution of Decaying MHD Turbulence in the Multiphase ISM",
-        "conf":" KAS Spring Meeting",
-        "venue":" Daecheon, Korea"
+        "talk": "Contributed Talk",
+        "y1": "4/2013",
+        "y2": "None",
+        "title": "Long-Term Evolution of Decaying MHD Turbulence in the Multiphase ISM",
+        "conf": "KAS Spring Meeting",
+        "venue": "Daecheon, Korea"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"2/2013",
-        "y2":"None",
-        "title":"Long-Term Evolution of Decaying MHD Turbulence in the Multiphase ISM",
-        "conf":" CITA National Fellow Meeting",
-        "venue":" Toronto, Canada"
+        "talk": "Invited Talk",
+        "y1": "2/2013",
+        "y2": "None",
+        "title": "Long-Term Evolution of Decaying MHD Turbulence in the Multiphase ISM",
+        "conf": "CITA National Fellow Meeting",
+        "venue": "Toronto, Canada"
     },
     {
-        "talk":"Contributed Talk",
-        "y1":"1/2013",
-        "y2":"None",
-        "title":"Long-Term Evolution of Decaying MHD Turbulence in the Multiphase ISM",
-        "conf":" AAS Meeting \\#221",
-        "venue":" Long Beach, CA"
+        "talk": "Contributed Talk",
+        "y1": "1/2013",
+        "y2": "None",
+        "title": "Long-Term Evolution of Decaying MHD Turbulence in the Multiphase ISM",
+        "conf": "AAS Meeting \\#221",
+        "venue": "Long Beach, CA"
     },
     {
-        "talk":"Invited Talk",
-        "y1":"8/2012",
-        "y2":"None",
-        "title":"Numerical Modeling of Multiphase, Turbulent Galactic Disks with Star Formation Feedback",
-        "conf":" IAU General Assembly -- SpS12",
-        "venue":" Beijing, China"
+        "talk": "Invited Talk",
+        "y1": "8/2012",
+        "y2": "None",
+        "title": "Numerical Modeling of Multiphase, Turbulent Galactic Disks with Star Formation Feedback",
+        "conf": "IAU General Assembly -- SpS12",
+        "venue": "Beijing, China"
     }
 ]

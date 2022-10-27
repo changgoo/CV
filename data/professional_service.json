@@ -1,26 +1,26 @@
 [
     {
-        "titie":"Reviewer",
-        "y1":"2020",
-        "y2":"2022",
-        "other":"NASA FINESST"
+        "titie": "Reviewer",
+        "y1": "2020",
+        "y2": "2022",
+        "other": "NASA FINESST"
     },
     {
-        "titie":"Review Panelist",
-        "y1":"2017",
-        "y2":"None",
-        "other":"NSF AAG Program"
+        "titie": "Review Panelist",
+        "y1": "2017",
+        "y2": "None",
+        "other": "NSF AAG Program"
     },
     {
-        "titie":"Organizer",
-        "y1":"2016",
-        "y2":"2017",
-        "other":"Star Formation/ISM Rendezvous Seminars at Princeton University"
+        "titie": "Organizer",
+        "y1": "2016",
+        "y2": "2017",
+        "other": "Star Formation/ISM Rendezvous Seminars at Princeton University"
     },
     {
-        "titie":"Referee",
-        "y1":"2012",
-        "y2":"present",
-        "other":"ApJ, ApJL, MNRAS, JOSS"
+        "titie": "Referee",
+        "y1": "2012",
+        "y2": "present",
+        "other": "ApJ, ApJL, MNRAS, JOSS"
     }
 ]
