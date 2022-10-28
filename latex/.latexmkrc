@@ -1,2 +1,5 @@
 $pdf_mode = 1;        # tex -> pdf
-@default_files = ('CV.tex', 'pub.tex', 'CV_pub.tex');
+$latex = 'latex -interaction=nonstopmode -shell-escape';
+$pdflatex="pdflatex -interaction=nonstopmode %O %S";
+$out_dir = 'build';
+@default_files = ('CV.tex', 'pub.tex', 'CV_pub.tex', 'ref.tex');

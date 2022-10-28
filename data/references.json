@@ -1,5 +1,6 @@
 [
   {
+    "type":"main",
     "name":"Eve C. Ostriker",
     "email":"eco@astro.princeton.edu",
     "phone":"609-258-7240",
@@ -7,6 +8,7 @@
     "affil":"Department of Astrophysical Sciences, Princeton University"
   },
   {
+    "type":"main",
     "name":"Rachel S. Somerville",
     "email":"rsomerville@flatironinstitute.org",
     "phone":"848-445-8964",
@@ -14,6 +16,7 @@
     "affil":"Center for Computational Astrophysics, Flatiron Institute"
   },
   {
+    "type":"main",
     "name":"Greg L. Bryan",
     "email":"gbryan@astro.columbia.edu",
     "phone":"212-854-6837",
@@ -21,10 +24,27 @@
     "affil":"Department of Astronomy, Columbia University"
   },
   {
+    "type":"main",
     "name":"James M. Stone",
     "email":"jmstone@ias.edu",
     "phone":"609-734-8054",
     "title":"Professor",
     "affil":"School of Natural Sciences, Institute for Advanced Study"
+  },
+  {
+    "type":"extra",
+    "name":"Snezana Stanimirovi\\'c",
+    "email":"sstanimi@astro.wisc.edu",
+    "phone":"608-890-1458",
+    "title":"Professor",
+    "affil":"Department of Astronomy, University of Wisconsin-Madison"
+  },
+  {
+    "type":"extra",
+    "name":"Raphael Flauger",
+    "email":"flauger@physics.ucsd.edu",
+    "phone":"858-534-7504",
+    "title":"Professor",
+    "affil":"Department of Physics, University of California, San Diego"
   }
 ]
