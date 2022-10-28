@@ -45,7 +45,7 @@
             "Greene, Jenny E.",
             "Lancaster, Lachlan"
         ],
-        "citations": 0,
+        "citations": 1,
         "doctype": "eprint",
         "doi": null,
         "issue": null,
@@ -564,7 +564,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 28,
+        "citations": 29,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ab9b87",
         "issue": "1",
@@ -702,7 +702,7 @@
             "Babler, Brian",
             "Kim, Chang-Goo"
         ],
-        "citations": 56,
+        "citations": 57,
         "doctype": "article",
         "doi": "10.3847/1538-4365/aad81a",
         "issue": "2",
@@ -1025,7 +1025,7 @@
             "Kim, Woong-Tae",
             "Ostriker, Eve C."
         ],
-        "citations": 124,
+        "citations": 125,
         "doctype": "article",
         "doi": "10.1088/0004-637X/743/1/25",
         "issue": "1",

@@ -265,7 +265,7 @@ if __name__ == '__main__':
     hindex_first = sum(c > i for i, c in enumerate(cites_first))
 
     summary = (("Metrics for Refereed Publications "
-                "(from \\href{{\\adsurl}}{{ADS}} as of \\textit{{{0}}}) --- "
+                "(from \\href{{\\adsurl}}{{ADS}} as of \\textit{{{0}}}) \\\\"
                 "count: {1} --- citations: {4} --- h-index: {7}")
                .format(date.today(), nref, nfirst, nsec,
                        ncitations, ncitations_first, ncitations_sec,
