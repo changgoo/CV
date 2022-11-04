@@ -146,11 +146,11 @@ def get_paper_items(papers):
                 for pattr in JOURNAL_SKIP]):
             continue
 
-        if paper["doi"] is not None:
-            title = "\\doiform{{{0}}}{{{1}}}".format(paper["doi"],
-                                                 utf8totex(paper["title"]))
-        else:
-            title = "\\textit{{{0}}}".format(utf8totex(paper["title"]))
+        # if paper["doi"] is not None:
+        #     title = "\\doiform{{{0}}}{{{1}}}".format(paper["doi"],
+        #                                          utf8totex(paper["title"]))
+        # else:
+        title = "\\textit{{{0}}}".format(utf8totex(paper["title"]))
         if '<SUB>' in title:
             title=title.replace('<SUB>','${}_{').replace('</SUB>','}$')
             print(title)
@@ -164,7 +164,8 @@ def get_paper_items(papers):
                 print("Journal '{0}' not recognized for paper '{1}' - "
                       " skipping...".format(paper['pub'], paper['title']))
                 continue
-
+            if paper["doi"] is not None:
+                pub = "\\doiform{{{0}}}{{{1}}}".format(paper["doi"],pub)
             entry += ", " + pub
             is_preprint = False
 
