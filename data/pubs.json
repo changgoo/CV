@@ -1,5 +1,25 @@
 [
     {
+        "arxiv": "2211.05131",
+        "authors": [
+            "Guo, Minghao",
+            "Stone, James M.",
+            "Kim, Chang-Goo",
+            "Quataert, Eliot"
+        ],
+        "citations": 0,
+        "doctype": "eprint",
+        "doi": null,
+        "issue": null,
+        "page": null,
+        "pub": "arXiv e-prints",
+        "pubdate": "2022-11-00",
+        "title": "Toward Horizon-scale Accretion Onto Supermassive Black Holes in Elliptical Galaxies",
+        "url": "http://adsabs.harvard.edu/abs/2022arXiv221105131G",
+        "volume": null,
+        "year": "2022"
+    },
+    {
         "arxiv": "2210.08024",
         "authors": [
             "Kim, Jeong-Gyu",
@@ -25,7 +45,7 @@
             "Ostriker, Eve C.",
             "Kim, Chang-Goo"
         ],
-        "citations": 6,
+        "citations": 7,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ac7de2",
         "issue": "2",
@@ -45,7 +65,7 @@
             "Greene, Jenny E.",
             "Lancaster, Lachlan"
         ],
-        "citations": 1,
+        "citations": 2,
         "doctype": "eprint",
         "doi": null,
         "issue": null,
@@ -239,7 +259,7 @@
             "Murray, Norman",
             "Wetzel, Andrew"
         ],
-        "citations": 26,
+        "citations": 27,
         "doctype": "article",
         "doi": "10.1093/mnras/stab2714",
         "issue": "2",
@@ -319,7 +339,7 @@
             "Kim, Jeong-Gyu",
             "Kim, Chang-Goo"
         ],
-        "citations": 38,
+        "citations": 39,
         "doctype": "article",
         "doi": "10.3847/1538-4357/abf8ab",
         "issue": "2",
@@ -489,7 +509,7 @@
             "Hernquist, Lars",
             "Pandya, Viraj"
         ],
-        "citations": 48,
+        "citations": 49,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aba962",
         "issue": "1",
@@ -739,7 +759,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 124,
+        "citations": 125,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aaa5ff",
         "issue": "2",
@@ -757,7 +777,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 124,
+        "citations": 125,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aa8599",
         "issue": "2",
@@ -824,7 +844,7 @@
             "Ostriker, Eve C.",
             "Raileanu, Roberta"
         ],
-        "citations": 107,
+        "citations": 108,
         "doctype": "article",
         "doi": "10.3847/1538-4357/834/1/25",
         "issue": "1",
@@ -896,7 +916,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 270,
+        "citations": 271,
         "doctype": "article",
         "doi": "10.1088/0004-637X/802/2/99",
         "issue": "2",
@@ -988,7 +1008,7 @@
             "Ostriker, Eve C.",
             "Kim, Woong-Tae"
         ],
-        "citations": 162,
+        "citations": 164,
         "doctype": "article",
         "doi": "10.1088/0004-637X/776/1/1",
         "issue": "1",

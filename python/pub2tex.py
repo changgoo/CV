@@ -12,7 +12,8 @@ students = [
     "kado-fong",
     "mao",
     "moon",
-    "lancaster"
+    "lancaster",
+    "guo"
 ]
 
 _JOURNAL_MAP = {
@@ -189,7 +190,12 @@ def get_paper_items(papers):
                       .format(paper["url"], paper["citations"]))
 
         if is_preprint:
-            entry += (", ApJ in press")
+            if "guo" in paper["authors"][0].lower():
+                entry += (", ApJ submitted")
+            elif "jeong-gyu" in paper["authors"][0].lower():
+                entry += (", ApJS in press")
+            else:
+                entry += (", ApJ in press")
 
         if True:
         #    preprints.append(entry)
@@ -199,7 +205,10 @@ def get_paper_items(papers):
             if myname in paper["authors"][0]:
                 first_refs.append(entry)
             elif (((len(paper["authors"]) > 1) and (myname in paper["authors"][1])) or
-                 "student" in authors):
+                 ("student" in authors) or
+                 ("munan" in paper["authors"][0].lower()) or
+                 ("jeong-gyu" in paper["authors"][0].lower())):
+                print(paper['authors'][0])
                 sec_refs.append(entry)
             else:
                 other_refs.append(entry)
@@ -278,7 +287,7 @@ if __name__ == '__main__':
     summary_1st = ((" as First Author (count: {0} --- citations: {1})")
                    .format(nfirst, ncitations_first))
 
-    summary_2nd = ((" as Second Author or Student-led (count: {0} --- citations: {1})")
+    summary_2nd = ((" w/ Significant Contribution (count: {0} --- citations: {1})")
                    .format(nsec, ncitations_sec))
 
     summary_co = ((" as Co-Author (count: {0} --- citations: {1})")
