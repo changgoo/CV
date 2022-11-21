@@ -42,7 +42,9 @@ def get_text(item, data):
   isref = True if item == 'references' else False
   iselem = False
   if item in ['invited_review_talks','invited_colloquia',
-              'conference_workshop_seminar_talks']:
+              'conference_workshop_seminar_talks',
+              'professional_presentations'
+              ]:
     istalk = True
   if item in ['education',
               'current_position',
@@ -162,9 +164,10 @@ def create_pub():
     add_pubitem(item,fp)
 
   add_pubheader(fp,talk=True)
-  for item in ['invited_review_talks',
-                'invited_colloquia',
-                'conference_workshop_seminar_talks']:
+  # for item in ['invited_review_talks',
+  #               'invited_colloquia',
+  #               'conference_workshop_seminar_talks']:
+  for item in ['professional_presentations']:
     if item in items:
       add_item(item,fp)
     else:
@@ -234,9 +237,10 @@ def create_CV_pub():
     add_pubitem(item,fp)
 
   add_pubheader(fp,header=False,talk=True)
-  for item in ['invited_review_talks',
-                'invited_colloquia',
-                'conference_workshop_seminar_talks']:
+  # for item in ['invited_review_talks',
+  #               'invited_colloquia',
+  #               'conference_workshop_seminar_talks']:
+  for item in ['professional_presentations']:
     if item in items:
       add_item(item,fp)
     else:
@@ -253,6 +257,16 @@ def create_ref():
   add_item('references',fp)
   fp.write(r"\end{document}"+'\n')
   fp.close()
+
+def sort_json(f):
+  import numpy as np
+  with open(f,'r') as fp:
+    data=json.load(fp)
+  years = [float('{d[1]}.{d[0]:02d}'.format(
+           d=np.array(d['y1'].split('/')).astype('int'))) for d in data]
+  sorted_data=list(np.array(data)[np.argsort(years)[::-1]])
+  with open(f,'w') as fp:
+    json.dump(sorted_data,fp,indent=4, separators=(",", ": "))
 
 if __name__=="__main__":
   print("Creating CV...")

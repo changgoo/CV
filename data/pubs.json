@@ -1,5 +1,25 @@
 [
     {
+        "arxiv": "2209.05500",
+        "authors": [
+            "Kado-Fong, Erin",
+            "Kim, Chang-Goo",
+            "Greene, Jenny E.",
+            "Lancaster, Lachlan"
+        ],
+        "citations": 2,
+        "doctype": "article",
+        "doi": "10.3847/1538-4357/ac9673",
+        "issue": "2",
+        "page": 101,
+        "pub": "The Astrophysical Journal",
+        "pubdate": "2022-11-00",
+        "title": "Ultra-diffuse Galaxies as Extreme Star-forming Environments. II. Star Formation and Pressure Balance in H I-rich UDGs",
+        "url": "http://adsabs.harvard.edu/abs/2022ApJ...939..101K",
+        "volume": "939",
+        "year": "2022"
+    },
+    {
         "arxiv": "2211.05131",
         "authors": [
             "Guo, Minghao",
@@ -27,7 +47,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 0,
+        "citations": 1,
         "doctype": "eprint",
         "doi": null,
         "issue": null,
@@ -45,7 +65,7 @@
             "Ostriker, Eve C.",
             "Kim, Chang-Goo"
         ],
-        "citations": 7,
+        "citations": 8,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ac7de2",
         "issue": "2",
@@ -55,26 +75,6 @@
         "title": "Pressure-regulated, Feedback-modulated Star Formation in Disk Galaxies",
         "url": "http://adsabs.harvard.edu/abs/2022ApJ...936..137O",
         "volume": "936",
-        "year": "2022"
-    },
-    {
-        "arxiv": "2209.05500",
-        "authors": [
-            "Kado-Fong, Erin",
-            "Kim, Chang-Goo",
-            "Greene, Jenny E.",
-            "Lancaster, Lachlan"
-        ],
-        "citations": 2,
-        "doctype": "eprint",
-        "doi": null,
-        "issue": null,
-        "page": null,
-        "pub": "arXiv e-prints",
-        "pubdate": "2022-09-00",
-        "title": "Ultra-Diffuse Galaxies as Extreme Star-forming Environments II: Star Formation and Pressure Balance in HI-Rich UDGs",
-        "url": "http://adsabs.harvard.edu/abs/2022arXiv220905500K",
-        "volume": null,
         "year": "2022"
     },
     {
@@ -259,7 +259,7 @@
             "Murray, Norman",
             "Wetzel, Andrew"
         ],
-        "citations": 27,
+        "citations": 29,
         "doctype": "article",
         "doi": "10.1093/mnras/stab2714",
         "issue": "2",
@@ -299,7 +299,7 @@
             "Hill, J. Colin",
             "Hensley, Brandon S."
         ],
-        "citations": 26,
+        "citations": 29,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ac0e35",
         "issue": "1",
@@ -319,7 +319,7 @@
             "Kim, Jeong-Gyu",
             "Kim, Chang-Goo"
         ],
-        "citations": 34,
+        "citations": 35,
         "doctype": "article",
         "doi": "10.3847/1538-4357/abf8ac",
         "issue": "2",
@@ -339,7 +339,7 @@
             "Kim, Jeong-Gyu",
             "Kim, Chang-Goo"
         ],
-        "citations": 39,
+        "citations": 40,
         "doctype": "article",
         "doi": "10.3847/1538-4357/abf8ab",
         "issue": "2",
@@ -388,7 +388,7 @@
             "Tonnesen, Stephanie",
             "Starkenburg, Tjitske"
         ],
-        "citations": 22,
+        "citations": 25,
         "doctype": "article",
         "doi": "10.3847/1538-4357/abc3c1",
         "issue": "1",
@@ -453,7 +453,7 @@
             "Kim, Chang-Goo",
             "Kim, Jeong-Gyu"
         ],
-        "citations": 30,
+        "citations": 31,
         "doctype": "article",
         "doi": "10.3847/1538-4357/abbdab",
         "issue": "2",
@@ -484,7 +484,7 @@
             "Hayward, Christopher C.",
             "Hernquist, Lars"
         ],
-        "citations": 30,
+        "citations": 33,
         "doctype": "article",
         "doi": "10.3847/1538-4357/abbc6d",
         "issue": "1",
@@ -509,7 +509,7 @@
             "Hernquist, Lars",
             "Pandya, Viraj"
         ],
-        "citations": 49,
+        "citations": 52,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aba962",
         "issue": "1",
@@ -604,7 +604,7 @@
             "Ostriker, Eve C.",
             "Kim, Chang-Goo"
         ],
-        "citations": 18,
+        "citations": 19,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ab9abd",
         "issue": "2",
@@ -682,7 +682,7 @@
             "Choi, Steve K.",
             "Flauger, Raphael"
         ],
-        "citations": 27,
+        "citations": 28,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ab29f2",
         "issue": "2",
@@ -777,7 +777,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 125,
+        "citations": 126,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aa8599",
         "issue": "2",
@@ -844,7 +844,7 @@
             "Ostriker, Eve C.",
             "Raileanu, Roberta"
         ],
-        "citations": 108,
+        "citations": 109,
         "doctype": "article",
         "doi": "10.3847/1538-4357/834/1/25",
         "issue": "1",
@@ -916,7 +916,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 271,
+        "citations": 272,
         "doctype": "article",
         "doi": "10.1088/0004-637X/802/2/99",
         "issue": "2",
@@ -1121,7 +1121,7 @@
             "Kim, Woong-Tae",
             "Ostriker, Eve C."
         ],
-        "citations": 43,
+        "citations": 44,
         "doctype": "article",
         "doi": "10.1086/508160",
         "issue": "1",
