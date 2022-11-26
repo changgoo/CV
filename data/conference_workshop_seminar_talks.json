@@ -1,5 +1,13 @@
 [
     {
+        "talk": "Seminar",
+        "y1": "11/2022",
+        "y2": "None",
+        "title": "Introducing TIGRESS-NCR: current status of numerical modeling of the star-forming ISM",
+        "conf": "Thunch",
+        "venue": "Princeton, NJ"
+    },
+    {
         "talk": "Contributed Talk",
         "y1": "8/2022",
         "y2": "None",

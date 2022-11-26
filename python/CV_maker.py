@@ -138,7 +138,10 @@ def add_pubitem(item,fp):
   fp.write(div_line)
   fp.write('\n\n')
   if item == 'proc':
-    fp.write(r"\itemtitle{Conferecne Proceedings}")
+    fp.write(r"\itemtitle{Conferecne Proceedings/White Papers}")
+  elif item == 'arXiv':
+    fp.write(r"\itemtitle{Papers Under Review}")
+    fname = os.path.join('../data','pubs_{}.tex'.format(item))
   else:
     fp.write(r"\itemtitle{{Refereed Publications \input{{{}}}}}".format(summary_fname))
   fp.write('\n\n')
@@ -160,7 +163,7 @@ def create_pub():
   fp.write(r"\begin{document}"+'\n')
 
   add_pubheader(fp)
-  for item in ['1st','2nd','co','proc']:
+  for item in ['1st','2nd','co','arXiv','proc']:
     add_pubitem(item,fp)
 
   add_pubheader(fp,talk=True)
@@ -233,7 +236,7 @@ def create_CV_pub():
 
   add_pubheader(fp,header=False,talk=False)
 
-  for item in ['1st','2nd','co','proc']:
+  for item in ['1st','2nd','co','arXiv','proc']:
     add_pubitem(item,fp)
 
   add_pubheader(fp,header=False,talk=True)

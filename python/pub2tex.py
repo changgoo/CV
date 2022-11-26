@@ -169,7 +169,6 @@ def get_paper_items(papers):
                 pub = "\\doiform{{{0}}}{{{1}}}".format(paper["doi"],pub)
             entry += ", " + pub
             is_preprint = False
-
         else:
             is_preprint = True
 
@@ -190,16 +189,17 @@ def get_paper_items(papers):
                       .format(paper["url"], paper["citations"]))
 
         if is_preprint:
-            if "guo" in paper["authors"][0].lower():
-                entry += (", ApJ submitted")
-            elif "jeong-gyu" in paper["authors"][0].lower():
+            if "jeong-gyu" in paper["authors"][0].lower():
                 entry += (", ApJS in press")
+                is_preprint = False
+            elif "kraft" in paper["authors"][0].lower():
+                continue
             else:
-                entry += (", ApJ in press")
+                entry += (", ApJ submitted")
 
-        if True:
-        #    preprints.append(entry)
-        #else:
+        if is_preprint:
+            preprints.append(entry)
+        else:
             refereeds.append(entry)
             myname = "Chang-Goo"
             if myname in paper["authors"][0]:
@@ -215,7 +215,10 @@ def get_paper_items(papers):
 
 
     # Now go through and add the \item and numbers:
-    for corpus in [preprints, refereeds]:
+    for corpus in [preprints]:
+        for i, item in enumerate(corpus):
+            corpus[i] = ("\\item " + item)
+    for corpus in [refereeds]:
         for i, item in enumerate(corpus):
             num = len(corpus) - i
             corpus[i] = ("\\item[{" + str(num) + ".}]" + item)
@@ -224,8 +227,8 @@ def get_paper_items(papers):
     j=0
     for corpus in [first_refs, sec_refs, other_refs]:
         for i, item in enumerate(corpus):
-            #num = len(corpus) - i
-            num = j+1 # nums[j]
+            # num = j+1 #
+            num = nums[j]
             corpus[i] = ("\\item[{" + str(num) + ".}]" + item)
             j+=1
 
@@ -293,10 +296,13 @@ if __name__ == '__main__':
     summary_co = ((" as Co-Author (count: {0} --- citations: {1})")
                    .format(nref - nfirst - nsec,
                            ncitations - ncitations_first - ncitations_sec))
-    for f, data in zip(["summary.tex","summary_1st.tex","summary_2nd.tex","summary_co.tex",
-                        "pubs_ref.tex","pubs_ref_1st.tex","pubs_ref_2nd.tex","pubs_ref_co.tex"],
+    for f, data in zip(["summary.tex","summary_1st.tex",
+                        "summary_2nd.tex","summary_co.tex",
+                        "pubs_ref.tex","pubs_ref_1st.tex",
+                        "pubs_ref_2nd.tex","pubs_ref_co.tex",
+                        "pubs_arxiv.tex"],
                        [summary, summary_1st, summary_2nd, summary_co,
-                           refs, first_refs, sec_refs, other_refs]):
+                           refs, first_refs, sec_refs, other_refs, unrefs]):
         with open(path.join(dirpath,f), "w") as fp:
             if f.startswith("pubs"):
                 fp.write("\n\n".join(data))
