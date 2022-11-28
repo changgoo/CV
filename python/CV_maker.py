@@ -5,7 +5,7 @@ import glob
 files = glob.glob('../data/*.json')
 items = [os.path.basename(f).replace('.json','') for f in files]
 div_line = r"%"+80*'='
-
+publist = ['prep','1st','2nd','co','proc']
 def add_header(fp):
   header = []
   # header.append(r"\documentclass[12pt,preprint,letter]{aastex63}")
@@ -163,7 +163,7 @@ def create_pub():
   fp.write(r"\begin{document}"+'\n')
 
   add_pubheader(fp)
-  for item in ['1st','2nd','co','prep','proc']:
+  for item in publist:
     add_pubitem(item,fp)
 
   add_pubheader(fp,talk=True)
@@ -236,7 +236,7 @@ def create_CV_pub():
 
   add_pubheader(fp,header=False,talk=False)
 
-  for item in ['1st','2nd','co','prep','proc']:
+  for item in publist:
     add_pubitem(item,fp)
 
   add_pubheader(fp,header=False,talk=True)

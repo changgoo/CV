@@ -1,5 +1,25 @@
 [
     {
+        "arxiv": "2211.13293",
+        "authors": [
+            "Kim, Chang-Goo",
+            "Kim, Jeong-Gyu",
+            "Gong, Munan",
+            "Ostriker, Eve C."
+        ],
+        "citations": 0,
+        "doctype": "eprint",
+        "doi": null,
+        "issue": null,
+        "page": null,
+        "pub": "arXiv e-prints",
+        "pubdate": "2022-11-00",
+        "title": "Introducing TIGRESS-NCR: I. Co-Regulation of the Multiphase Interstellar Medium and Star Formation Rates",
+        "url": "http://adsabs.harvard.edu/abs/2022arXiv221113293K",
+        "volume": null,
+        "year": "2022"
+    },
+    {
         "arxiv": "2211.09827",
         "authors": [
             "Kraft, Ralph",
@@ -382,7 +402,7 @@
             "Murray, Norman",
             "Wetzel, Andrew"
         ],
-        "citations": 30,
+        "citations": 31,
         "doctype": "article",
         "doi": "10.1093/mnras/stab2714",
         "issue": "2",
@@ -576,7 +596,7 @@
             "Kim, Chang-Goo",
             "Kim, Jeong-Gyu"
         ],
-        "citations": 31,
+        "citations": 32,
         "doctype": "article",
         "doi": "10.3847/1538-4357/abbdab",
         "issue": "2",
@@ -632,7 +652,7 @@
             "Hernquist, Lars",
             "Pandya, Viraj"
         ],
-        "citations": 52,
+        "citations": 53,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aba962",
         "issue": "1",
@@ -864,7 +884,7 @@
             "Ostriker, Eve C.",
             "Kim, Chang-Goo"
         ],
-        "citations": 42,
+        "citations": 43,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aab9af",
         "issue": "1",
@@ -882,7 +902,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 125,
+        "citations": 126,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aaa5ff",
         "issue": "2",
@@ -900,7 +920,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 126,
+        "citations": 127,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aa8599",
         "issue": "2",
@@ -948,7 +968,7 @@
             "McKee, Christopher F.",
             "Stone, James M."
         ],
-        "citations": 42,
+        "citations": 43,
         "doctype": "article",
         "doi": "10.1093/mnras/stw2647",
         "issue": "1",
@@ -1003,7 +1023,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 84,
+        "citations": 85,
         "doctype": "article",
         "doi": "10.1088/0004-637X/815/1/67",
         "issue": "1",
@@ -1039,7 +1059,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 272,
+        "citations": 273,
         "doctype": "article",
         "doi": "10.1088/0004-637X/802/2/99",
         "issue": "2",
@@ -1168,7 +1188,7 @@
             "Kim, Woong-Tae",
             "Ostriker, Eve C."
         ],
-        "citations": 126,
+        "citations": 125,
         "doctype": "article",
         "doi": "10.1088/0004-637X/743/1/25",
         "issue": "1",
