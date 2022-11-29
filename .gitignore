@@ -11,3 +11,4 @@ __pycache__/
 *.blg
 *.xdv
 *.synctex.gz
+.DS_Store
