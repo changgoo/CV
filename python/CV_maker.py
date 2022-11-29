@@ -122,9 +122,9 @@ def add_pubheader(fp,header=False, talk=False):
     else:
       texts.append(r"{\large \bf List of Publications}")
       texts.append(r"(\href{\adsurl}{ADS}, \href{\googleurl}{Google Scholar})\\")
-      # texts.append(r"\\{\student{Name}: student advised/co-advised by me}\\")
       texts.append(r"\input{../data/summary.tex}")
     texts.append(r"\end{center}")
+    if talk == False: texts.append(r"{\student{Name}: student advised/co-advised by me}")
     texts.append(div_line)
 
   for t in texts:
@@ -148,8 +148,8 @@ def add_pubitem(item,fp):
   else:
     fp.write(r"\itemtitle{{Refereed Publications \input{{{}}}}}".format(summary_fname))
   fp.write('\n\n')
-  if item == '2nd':
-    fp.write(r"{\student{Name}: student advised/co-advised by me}")
+  # if item == '2nd':
+    # fp.write(r"{\student{Name}: student advised/co-advised by me}")
   fp.write('\n')
   fp.write(r"\begin{itemize}[itemsep=0pt,topsep=\parskip]")
   fp.write('\n')

@@ -75,7 +75,7 @@ def parse_authors(paper_dict, max_authors=4):
             if 'chang-goo' in name.lower():
                 name = '\\textbf{Kim, Chang-Goo}'
             else:
-                if i == 0:
+                if i >= 0:
                     for stuname in students:
                         if stuname in name.lower():
                             name = '\\student{' + name +'}'
