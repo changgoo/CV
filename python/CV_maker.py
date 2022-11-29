@@ -5,7 +5,7 @@ import glob
 files = glob.glob('../data/*.json')
 items = [os.path.basename(f).replace('.json','') for f in files]
 div_line = r"%"+80*'='
-publist = ['prep','1st','2nd','co','proc']
+publist = ['1st','2nd','co','review','prep','proc']
 def add_header(fp):
   header = []
   # header.append(r"\documentclass[12pt,preprint,letter]{aastex63}")
@@ -140,7 +140,10 @@ def add_pubitem(item,fp):
   if item == 'proc':
     fp.write(r"\itemtitle{Conferecne Proceedings/White Papers}")
   elif item in ['arXiv','prep']:
-    fp.write(r"\itemtitle{Papers Under Review}")
+    fp.write(r"\itemtitle{Papers in Preparation}")
+    fname = os.path.join('../data','pubs_{}.tex'.format(item))
+  elif item in ['review']:
+    fp.write(r"\itemtitle{Papers under Review}")
     fname = os.path.join('../data','pubs_{}.tex'.format(item))
   else:
     fp.write(r"\itemtitle{{Refereed Publications \input{{{}}}}}".format(summary_fname))
@@ -252,6 +255,51 @@ def create_CV_pub():
   fp.write(r"\end{document}"+'\n')
   fp.close()
 
+def create_CV_pub_C7():
+  itemlist=['education',
+            'current_position',
+            'employment',
+            'grants',
+            'research_advising',
+            'teaching',
+            'computing_time_allocations',
+            'observing_proposals',
+            'scientific_collaboration_teams',
+            'professional_service',
+            # 'references'
+            ]
+  fp = open('../latex/CV_C7.tex','w')
+  add_header(fp)
+  fp.write(r"\begin{document}"+'\n')
+
+  add_affiliation(fp)
+  for item in itemlist:
+
+    if item in items:
+      add_item(item,fp)
+    else:
+      print("cannot find {}.json".format(item))
+
+  fp.write('\\newpage\n')
+
+  add_pubheader(fp,header=False,talk=False)
+
+  for item in publist:
+    add_pubitem(item,fp)
+
+  add_pubheader(fp,header=False,talk=True)
+  # for item in ['invited_review_talks',
+  #               'invited_colloquia',
+  #               'conference_workshop_seminar_talks']:
+  for item in ['professional_presentations']:
+    if item in items:
+      add_item(item,fp)
+    else:
+      print("cannot find {}.json".format(item))
+
+  fp.write(r"\end{document}"+'\n')
+  fp.close()
+
 def create_ref():
   fp = open('../latex/ref.tex','w')
   add_header(fp)
@@ -261,20 +309,6 @@ def create_ref():
   fp.write(r"\end{document}"+'\n')
   fp.close()
 
-def sort_json(f):
-  import numpy as np
-  with open(f,'r') as fp:
-    data=json.load(fp)
-  years = [float('{d[1]}.{d[0]:02d}'.format(
-           d=np.array(d['y1'].split('/')).astype('int'))) for d in data]
-  sorted_data=list(np.array(data)[np.argsort(years)[::-1]])
-  with open(f,'w') as fp:
-    json.dump(sorted_data,fp,indent=4, separators=(",", ": "))
-
 if __name__=="__main__":
-  print("Creating CV...")
-  create_CV()
-  print("Creating CV with pub...")
-  create_CV_pub()
-  print("Creating pub only...")
-  create_pub()
+  create_CV_pub_C7()
+

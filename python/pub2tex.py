@@ -181,8 +181,8 @@ def get_paper_items(papers):
         if paper['pubdate'] is not None:
             entry += ", {0}".format(paper['pubdate'].split('-')[0])
 
-        if paper["arxiv"] is not None:
-            entry += " (\\arxiv{{{0}}})".format(paper["arxiv"])
+        # if paper["arxiv"] is not None:
+        #     entry += " (\\arxiv{{{0}}})".format(paper["arxiv"])
 
         if paper["citations"] > 1:
             entry += (" [\\href{{{0}}}{{{1} citations}}]"
@@ -227,8 +227,8 @@ def get_paper_items(papers):
     j=0
     for corpus in [first_refs, sec_refs, other_refs]:
         for i, item in enumerate(corpus):
-            # num = j+1 #
-            num = nums[j]
+            num = j+1 #
+            # num = nums[j]
             corpus[i] = ("\\item[{" + str(num) + ".}]" + item)
             j+=1
 
