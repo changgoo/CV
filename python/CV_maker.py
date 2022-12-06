@@ -37,7 +37,7 @@ def add_affiliation(fp):
     fp.write(t)
     fp.write('\n')
 
-def get_text(item, data):
+def get_text(item, data, notitle=False):
   istalk = False
   isref = True if item == 'references' else False
   iselem = False
@@ -75,12 +75,20 @@ def get_text(item, data):
       else:
         year = r"{d[y1]} -- \\ {d[y2]}"
     if istalk:
-      text_format = [head + year +r"}}",
-              r"{{{d[talk]}}}",
-              r"{{\emph{{{d[title]}}},",
-              r"{d[conf]},",
-              r"{d[venue]}}}",
-              ]
+      if notitle:
+        text_format = [head + year +r"}}",
+                r"{{{d[talk]}}}",
+                r"{{\emph{{{d[conf]}}},",
+                # r"{d[conf]},",
+                r"{d[venue]}}}",
+                ]
+      else:
+        text_format = [head + year +r"}}",
+                r"{{{d[talk]}}}",
+                r"{{\emph{{{d[title]}}},",
+                r"{d[conf]},",
+                r"{d[venue]}}}",
+                ]
     else:
       text_format = [head + year +r"}}",
               r"{{{d[title]}}}",
@@ -94,7 +102,7 @@ def get_text(item, data):
     print(item,data)
     return
 
-def add_item(item,fp):
+def add_item(item,fp,notitle=False):
   data = json.load(open(os.path.join('../data',item+'.json')))
 
   fp.write(div_line)
@@ -104,7 +112,7 @@ def add_item(item,fp):
   for d in data:
     if item == 'references':
       if d['type'] != 'main': continue
-    text = get_text(item, d)
+    text = get_text(item, d, notitle=notitle)
     fp.write(text)
     fp.write('\n')
 
@@ -172,7 +180,7 @@ def create_pub():
   #               'conference_workshop_seminar_talks']:
   for item in ['professional_presentations']:
     if item in items:
-      add_item(item,fp)
+      add_item(item,fp,notitle=False)
     else:
       print("cannot find {}.json".format(item))
 
@@ -245,7 +253,7 @@ def create_CV_pub():
   #               'conference_workshop_seminar_talks']:
   for item in ['professional_presentations']:
     if item in items:
-      add_item(item,fp)
+      add_item(item,fp,notitle=False)
     else:
       print("cannot find {}.json".format(item))
 

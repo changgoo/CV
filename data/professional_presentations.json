@@ -1,5 +1,21 @@
 [
     {
+        "talk": "Invited Talk",
+        "y1": "12/2022",
+        "y2": "None",
+        "title": "Multiphase ISM from the TIGRESS-NCR simulations",
+        "conf": "Theory meets Observations: Star Formation Physics Probed in Nearby Galaxies",
+        "venue": "Heidelberg, Germany"
+    },
+    {
+        "talk": "Seminar",
+        "y1": "11/2022",
+        "y2": "None",
+        "title": "Introducing TIGRESS-NCR: current status of numerical modeling of the star-forming ISM",
+        "conf": "Thunch",
+        "venue": "Princeton, NJ"
+    },
+    {
         "talk": "Colloquium",
         "y1": "11/2022",
         "y2": "None",
