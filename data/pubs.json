@@ -1,5 +1,27 @@
 [
     {
+        "arxiv": "2212.03898",
+        "authors": [
+            "Steinwandel, Ulrich P.",
+            "Kim, Chang-Goo",
+            "Bryan, Greg L.",
+            "Ostriker, Eve C.",
+            "Somerville, Rachel S.",
+            "Fielding, Drummond B."
+        ],
+        "citations": 0,
+        "doctype": "eprint",
+        "doi": null,
+        "issue": null,
+        "page": null,
+        "pub": "arXiv e-prints",
+        "pubdate": "2022-12-00",
+        "title": "The structure and composition of multiphase galactic winds in a Large Magellanic Cloud mass simulated galaxy",
+        "url": "http://adsabs.harvard.edu/abs/2022arXiv221203898S",
+        "volume": null,
+        "year": "2022"
+    },
+    {
         "arxiv": "2211.13293",
         "authors": [
             "Kim, Chang-Goo",
@@ -920,7 +942,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 129,
+        "citations": 130,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aa8599",
         "issue": "2",
@@ -1188,7 +1210,7 @@
             "Kim, Woong-Tae",
             "Ostriker, Eve C."
         ],
-        "citations": 126,
+        "citations": 127,
         "doctype": "article",
         "doi": "10.1088/0004-637X/743/1/25",
         "issue": "1",
