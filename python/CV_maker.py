@@ -146,7 +146,7 @@ def add_pubitem(item,fp):
   fp.write(div_line)
   fp.write('\n\n')
   if item == 'proc':
-    fp.write(r"\itemtitle{Conferecne Proceedings/White Papers}")
+    fp.write(r"\itemtitle{Conference Proceedings/White Papers}")
   elif item in ['arXiv','prep']:
     fp.write(r"\itemtitle{Papers Under Review}")
     fname = os.path.join('../data','pubs_{}.tex'.format(item))
