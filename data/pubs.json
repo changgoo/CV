@@ -1,5 +1,25 @@
 [
     {
+        "arxiv": "2210.08024",
+        "authors": [
+            "Kim, Jeong-Gyu",
+            "Gong, Munan",
+            "Kim, Chang-Goo",
+            "Ostriker, Eve C."
+        ],
+        "citations": 3,
+        "doctype": "article",
+        "doi": "10.3847/1538-4365/ac9b1d",
+        "issue": "1",
+        "page": 10,
+        "pub": "The Astrophysical Journal Supplement Series",
+        "pubdate": "2023-01-00",
+        "title": "Photochemistry and Heating/Cooling of the Multiphase Interstellar Medium with UV Radiative Transfer for Magnetohydrodynamic Simulations",
+        "url": "http://adsabs.harvard.edu/abs/2023ApJS..264...10K",
+        "volume": "264",
+        "year": "2023"
+    },
+    {
         "arxiv": "2212.03898",
         "authors": [
             "Steinwandel, Ulrich P.",
@@ -205,26 +225,6 @@
         "year": "2022"
     },
     {
-        "arxiv": "2210.08024",
-        "authors": [
-            "Kim, Jeong-Gyu",
-            "Gong, Munan",
-            "Kim, Chang-Goo",
-            "Ostriker, Eve C."
-        ],
-        "citations": 3,
-        "doctype": "eprint",
-        "doi": null,
-        "issue": null,
-        "page": null,
-        "pub": "arXiv e-prints",
-        "pubdate": "2022-10-00",
-        "title": "Photochemistry and Heating/Cooling of the Multiphase Interstellar Medium with UV Radiative Transfer for Magnetohydrodynamic Simulations",
-        "url": "http://adsabs.harvard.edu/abs/2022arXiv221008024K",
-        "volume": null,
-        "year": "2022"
-    },
-    {
         "arxiv": "2206.00681",
         "authors": [
             "Ostriker, Eve C.",
@@ -371,7 +371,7 @@
             "Westmeier, T.",
             "Whiting, M. T."
         ],
-        "citations": 3,
+        "citations": 4,
         "doctype": "article",
         "doi": "10.1017/pasa.2021.59",
         "issue": null,
@@ -391,7 +391,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 6,
+        "citations": 7,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ac3a7b",
         "issue": "1",
@@ -424,7 +424,7 @@
             "Murray, Norman",
             "Wetzel, Andrew"
         ],
-        "citations": 34,
+        "citations": 33,
         "doctype": "article",
         "doi": "10.1093/mnras/stab2714",
         "issue": "2",
@@ -444,7 +444,7 @@
             "Kim, Jeong-Gyu",
             "Kim, Chang-Goo"
         ],
-        "citations": 14,
+        "citations": 15,
         "doctype": "article",
         "doi": "10.3847/2041-8213/ac3333",
         "issue": "1",
@@ -524,7 +524,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 8,
+        "citations": 10,
         "doctype": "article",
         "doi": "10.3847/1538-4357/abfa93",
         "issue": "1",
@@ -618,7 +618,7 @@
             "Kim, Chang-Goo",
             "Kim, Jeong-Gyu"
         ],
-        "citations": 33,
+        "citations": 34,
         "doctype": "article",
         "doi": "10.3847/1538-4357/abbdab",
         "issue": "2",
@@ -749,7 +749,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 32,
+        "citations": 33,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ab9b87",
         "issue": "1",
@@ -887,7 +887,7 @@
             "Babler, Brian",
             "Kim, Chang-Goo"
         ],
-        "citations": 59,
+        "citations": 60,
         "doctype": "article",
         "doi": "10.3847/1538-4365/aad81a",
         "issue": "2",
@@ -1081,7 +1081,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 277,
+        "citations": 278,
         "doctype": "article",
         "doi": "10.1088/0004-637X/802/2/99",
         "issue": "2",
@@ -1210,7 +1210,7 @@
             "Kim, Woong-Tae",
             "Ostriker, Eve C."
         ],
-        "citations": 126,
+        "citations": 127,
         "doctype": "article",
         "doi": "10.1088/0004-637X/743/1/25",
         "issue": "1",
