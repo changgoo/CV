@@ -16,7 +16,7 @@
     "affil":"Center for Computational Astrophysics, Flatiron Institute"
   },
   {
-    "type":"main",
+    "type":"extra",
     "name":"Greg L. Bryan",
     "email":"gbryan@astro.columbia.edu",
     "phone":"212-854-6837",
@@ -32,7 +32,7 @@
     "affil":"School of Natural Sciences, Institute for Advanced Study"
   },
   {
-    "type":"main",
+    "type":"extra",
     "name":"Snezana Stanimirovi\\'c",
     "email":"sstanimi@astro.wisc.edu",
     "phone":"608-890-1458",

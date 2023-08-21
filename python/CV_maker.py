@@ -5,7 +5,7 @@ import glob
 files = glob.glob('../data/*.json')
 items = [os.path.basename(f).replace('.json','') for f in files]
 div_line = r"%"+80*'='
-publist = ['prep','1st','2nd','co','proc']
+publist = ['arxiv','1st','2nd','co','proc']
 def add_header(fp):
   header = []
   # header.append(r"\documentclass[12pt,preprint,letter]{aastex63}")
@@ -147,7 +147,7 @@ def add_pubitem(item,fp):
   fp.write('\n\n')
   if item == 'proc':
     fp.write(r"\itemtitle{Conference Proceedings/White Papers}")
-  elif item in ['arXiv','prep']:
+  elif item in ['arxiv','prep']:
     fp.write(r"\itemtitle{Papers Under Review}")
     fname = os.path.join('../data','pubs_{}.tex'.format(item))
   else:

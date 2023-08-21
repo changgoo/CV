@@ -1,6 +1,46 @@
 [
     {
         "talk": "Invited Talk",
+        "y1": "09/2023",
+        "y2": "None",
+        "title": "Feedback regulated star formation: The TIGRESS simulations (and related topics)",
+        "conf": "MIST2023 : Cosmic turbulence and Magnetic fields: physics of baryonic matter across time and scales",
+        "venue": "Carg\\'ese, France"
+    },
+    {
+        "talk": "Seminar",
+        "y1": "08/2023",
+        "y2": "None",
+        "title": "Introducing TIGRESS-NCR: current status of numerical modeling of the star-forming ISM",
+        "conf": "Seminar",
+        "venue": "McMaster, ON, Canada"
+    },
+    {
+        "talk": "Invited Talk",
+        "y1": "08/2023",
+        "y2": "None",
+        "title": "Launching of Multiphase Galactic Outflows: Theoretical Understanding and Connection to Observations",
+        "conf": "The Evolution of Gas in and around Galaxies",
+        "venue": "Stanley, ID"
+    },
+    {
+        "talk": "Invited Talk",
+        "y1": "05/2023",
+        "y2": "None",
+        "title": "ISM Physics: Numerical Modeling of the Star-Forming ISM with Athena and Athena++",
+        "conf": "2nd Athena++ Workshop",
+        "venue": "New York, NY"
+    },
+    {
+        "talk": "Invited Talk",
+        "y1": "02/2023",
+        "y2": "None",
+        "title": "Introducing TIGRESS NCR: Numerical Modeling of the Star-Forming ISM",
+        "conf": "Disks to Disks: JSPS Collaboration Meeting",
+        "venue": "Princetion, NJ"
+    },
+    {
+        "talk": "Invited Talk",
         "y1": "12/2022",
         "y2": "None",
         "title": "Multiphase ISM from the TIGRESS-NCR simulations",

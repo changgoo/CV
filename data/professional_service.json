@@ -1,26 +1,26 @@
 [
     {
-        "title": "Reviewer",
-        "y1": "2020",
-        "y2": "2022",
-        "other": "NASA FINESST"
+        "title": "Review Panelist, Reviewer",
+        "y1": "2017",
+        "y2": "present",
+        "other": "NSF AAG, NASA ADAP, NASA FINESST"
     },
     {
-        "title": "Review Panelist",
-        "y1": "2017",
-        "y2": "None",
-        "other": "NSF AAG Program"
+        "title": "Referee",
+        "y1": "2012",
+        "y2": "present",
+        "other": "AAS, MNRAS, JOSS"
+    },
+    {
+        "title": "Organizer",
+        "y1": "2023",
+        "y2": "present",
+        "other": "Daily Astro Coffee at Princeton University"
     },
     {
         "title": "Organizer",
         "y1": "2016",
         "y2": "2017",
         "other": "Star Formation/ISM Rendezvous Seminars at Princeton University"
-    },
-    {
-        "title": "Referee",
-        "y1": "2012",
-        "y2": "present",
-        "other": "ApJ, ApJL, MNRAS, JOSS"
     }
 ]
