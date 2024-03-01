@@ -154,7 +154,7 @@ def add_pubitem(item,fp):
     fp.write(r"\itemtitle{{Refereed Publications \input{{{}}}}}".format(summary_fname))
   fp.write('\n\n')
   if item == '2nd':
-    fp.write(r"{\student{Name}: student advised/co-advised by me}")
+    fp.write(r"{\student{Name}: student advised/co-advised}")
   fp.write('\n')
   fp.write(r"\begin{itemize}[itemsep=0pt,topsep=\parskip]")
   fp.write('\n')

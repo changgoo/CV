@@ -351,3 +351,9 @@ if __name__ == "__main__":
     refs, unrefs, first_refs, sec_refs, other_refs = get_paper_items(
         papers, periods=["2022-01-01", "2023-12-31"]
     )
+
+    with open(path.join(dirpath, "pubs_ref_2022-2023.tex"), "w") as fp:
+         fp.write("\n\n".join(refs))
+
+    # with open(path.join(dirpath, "pubs_arxiv_2022-2023.tex"), "w") as fp:
+    #      fp.write("\n\n".join(unrefs))
