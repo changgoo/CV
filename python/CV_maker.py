@@ -5,7 +5,7 @@ import glob
 files = glob.glob('../data/*.json')
 items = [os.path.basename(f).replace('.json','') for f in files]
 div_line = r"%"+80*'='
-publist = ['arxiv','1st','2nd','co','proc']
+publist = ['1st','2nd','co','arxiv','proc']
 def add_header(fp):
   header = []
   # header.append(r"\documentclass[12pt,preprint,letter]{aastex63}")
