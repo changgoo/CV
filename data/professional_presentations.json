@@ -1,6 +1,22 @@
 [
     {
-        "talk": "Contributed Talk (planned)",
+        "talk": "Invited Talk",
+        "y1": "06/2024",
+        "y2": "None",
+        "title": "Numerical modeling of the star-forming ISM: state-of-the-art and remaining challenges",
+        "conf": "The Diffuse Gas in the Milky Way in AAS \\#244 Meeting-in-Meetings",
+        "venue": "Madison, WI"
+    },
+    {
+        "talk": "Invited Talk",
+        "y1": "06/2024",
+        "y2": "None",
+        "title": "Turbulence, Magnetic Fields, and Thermodynamics of the ISM in Regulating Galactic Star Formation Rates",
+        "conf": "Turbulence in the interstellar medium in AAS \\#244 Meeting-in-Meetings",
+        "venue": "Madison, WI"
+    },
+    {
+        "talk": "Contributed Talk",
         "y1": "04/2024",
         "y2": "None",
         "title": "Metallicity Dependence of Pressure-Regulated Feedback-Modulated Star Formation in the TIGRESS-NCR Simulation Suite",

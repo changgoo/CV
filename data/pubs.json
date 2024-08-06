@@ -1,5 +1,183 @@
 [
     {
+        "arxiv": "2407.14599",
+        "authors": [
+            "Steinwandel, Ulrich P.",
+            "Rennehan, Douglas",
+            "Orr, Matthew E.",
+            "Fielding, Drummond B.",
+            "Kim, Chang-Goo"
+        ],
+        "citations": 0,
+        "doctype": "eprint",
+        "doi": "10.48550/arXiv.2407.14599",
+        "issue": null,
+        "page": null,
+        "pub": "arXiv e-prints",
+        "pubdate": "2024-07-00",
+        "title": "Pumping Iron: How turbulent metal diffusion impacts multiphase galactic outflows",
+        "url": "http://adsabs.harvard.edu/abs/2024arXiv240714599S",
+        "volume": null,
+        "year": "2024"
+    },
+    {
+        "arxiv": "2407.13829",
+        "authors": [
+            "Pingel, Nickolas M.",
+            "Chen, Hongxing",
+            "Stanimirovi\u0107, Sne\u017eana",
+            "Koch, Eric W.",
+            "Leroy, Adam K.",
+            "Rosolowsky, Erik",
+            "Kim, Chang-Goo",
+            "Dalcanton, Julianne J.",
+            "Walter, Fabian",
+            "Busch, Michael P.",
+            "Chown, Ryan",
+            "Donovan Meyer, Jennifer",
+            "Eibensteiner, Cosima",
+            "Hunter, Deidre A.",
+            "Sarbadhicary, Sumit K.",
+            "Tarantino, Elizabeth",
+            "Villanueva, Vicente",
+            "Williams, Thomas G."
+        ],
+        "citations": 0,
+        "doctype": "eprint",
+        "doi": "10.48550/arXiv.2407.13829",
+        "issue": null,
+        "page": null,
+        "pub": "arXiv e-prints",
+        "pubdate": "2024-07-00",
+        "title": "The Local Group L-Band Survey: The First Measurements of Localized Cold Neutral Medium Properties in the Low-Metallicity Dwarf Galaxy NGC 6822",
+        "url": "http://adsabs.harvard.edu/abs/2024arXiv240713829P",
+        "volume": null,
+        "year": "2024"
+    },
+    {
+        "arxiv": "2405.02396",
+        "authors": [
+            "Lancaster, Lachlan",
+            "Ostriker, Eve C.",
+            "Kim, Chang-Goo",
+            "Kim, Jeong-Gyu",
+            "Bryan, Greg L."
+        ],
+        "citations": 1,
+        "doctype": "article",
+        "doi": "10.3847/1538-4357/ad47f6",
+        "issue": "1",
+        "page": 18,
+        "pub": "The Astrophysical Journal",
+        "pubdate": "2024-07-00",
+        "title": "Geometry, Dissipation, Cooling, and the Dynamical Evolution of Wind-blown Bubbles",
+        "url": "http://adsabs.harvard.edu/abs/2024ApJ...970...18L",
+        "volume": "970",
+        "year": "2024"
+    },
+    {
+        "arxiv": null,
+        "authors": [
+            "Kim, Chang-Goo"
+        ],
+        "citations": 0,
+        "doctype": "abstract",
+        "doi": null,
+        "issue": null,
+        "page": null,
+        "pub": "American Astronomical Society Meeting Abstracts",
+        "pubdate": "2024-06-00",
+        "title": "Turbulence, Magnetic Fields, and Thermodynamics of the ISM in Regulating Galactic Star Formation Rates",
+        "url": "http://adsabs.harvard.edu/abs/2024AAS...24421503K",
+        "volume": "244",
+        "year": "2024"
+    },
+    {
+        "arxiv": null,
+        "authors": [
+            "Kim, Chang-Goo"
+        ],
+        "citations": 0,
+        "doctype": "abstract",
+        "doi": null,
+        "issue": null,
+        "page": null,
+        "pub": "American Astronomical Society Meeting Abstracts",
+        "pubdate": "2024-06-00",
+        "title": "Numerical modeling of the star-forming ISM: state-of-the-art and remaining challenges",
+        "url": "http://adsabs.harvard.edu/abs/2024AAS...24412002K",
+        "volume": "244",
+        "year": "2024"
+    },
+    {
+        "arxiv": "2405.19227",
+        "authors": [
+            "Kim, Chang-Goo",
+            "Ostriker, Eve C.",
+            "Kim, Jeong-Gyu",
+            "Gong, Munan",
+            "Bryan, Greg L.",
+            "Fielding, Drummond B.",
+            "Hassan, Sultan",
+            "Ho, Matthew",
+            "Jeffreson, Sarah M. R.",
+            "Somerville, Rachel S.",
+            "Steinwandel, Ulrich P."
+        ],
+        "citations": 1,
+        "doctype": "eprint",
+        "doi": "10.48550/arXiv.2405.19227",
+        "issue": null,
+        "page": null,
+        "pub": "arXiv e-prints",
+        "pubdate": "2024-05-00",
+        "title": "Metallicity Dependence of Pressure-Regulated Feedback-Modulated Star Formation in the TIGRESS-NCR Simulation Suite",
+        "url": "http://adsabs.harvard.edu/abs/2024arXiv240519227K",
+        "volume": null,
+        "year": "2024"
+    },
+    {
+        "arxiv": "2405.11711",
+        "authors": [
+            "Guo, Minghao",
+            "Stone, James M.",
+            "Quataert, Eliot",
+            "Kim, Chang-Goo"
+        ],
+        "citations": 2,
+        "doctype": "eprint",
+        "doi": "10.48550/arXiv.2405.11711",
+        "issue": null,
+        "page": null,
+        "pub": "arXiv e-prints",
+        "pubdate": "2024-05-00",
+        "title": "Magnetized Accretion onto and Feedback from Supermassive Black Holes in Elliptical Galaxies",
+        "url": "http://adsabs.harvard.edu/abs/2024arXiv240511711G",
+        "volume": null,
+        "year": "2024"
+    },
+    {
+        "arxiv": "2404.15396",
+        "authors": [
+            "Diesing, Rebecca",
+            "Guo, Minghao",
+            "Kim, Chang-Goo",
+            "Stone, James",
+            "Caprioli, Damiano"
+        ],
+        "citations": 0,
+        "doctype": "eprint",
+        "doi": "10.48550/arXiv.2404.15396",
+        "issue": null,
+        "page": null,
+        "pub": "arXiv e-prints",
+        "pubdate": "2024-04-00",
+        "title": "Nonthermal Signatures of Radiative Supernova Remnants",
+        "url": "http://adsabs.harvard.edu/abs/2024arXiv240415396D",
+        "volume": null,
+        "year": "2024"
+    },
+    {
         "arxiv": "2401.04169",
         "authors": [
             "Armillotta, Lucia",
@@ -7,16 +185,57 @@
             "Kim, Chang-Goo",
             "Jiang, Yan-Fei"
         ],
+        "citations": 3,
+        "doctype": "article",
+        "doi": "10.3847/1538-4357/ad1e5c",
+        "issue": "1",
+        "page": 99,
+        "pub": "The Astrophysical Journal",
+        "pubdate": "2024-03-00",
+        "title": "Cosmic-Ray Acceleration of Galactic Outflows in Multiphase Gas",
+        "url": "http://adsabs.harvard.edu/abs/2024ApJ...964...99A",
+        "volume": "964",
+        "year": "2024"
+    },
+    {
+        "arxiv": null,
+        "authors": [
+            "Kim, Woong-Tae",
+            "Moon, Sanghyuk",
+            "Kim, Chang-Goo",
+            "Ostriker, Eve"
+        ],
         "citations": 0,
-        "doctype": "eprint",
-        "doi": "10.48550/arXiv.2401.04169",
+        "doctype": "abstract",
+        "doi": null,
         "issue": null,
         "page": null,
-        "pub": "arXiv e-prints",
-        "pubdate": "2024-01-00",
-        "title": "Cosmic-Ray Acceleration of Galactic Outflows in Multiphase Gas",
-        "url": "http://adsabs.harvard.edu/abs/2024arXiv240104169A",
-        "volume": null,
+        "pub": "American Astronomical Society Meeting Abstracts",
+        "pubdate": "2024-02-00",
+        "title": "Magnetic Fields and Star Formation in Nuclear Rings of Disk Galaxies",
+        "url": "http://adsabs.harvard.edu/abs/2024AAS...24340511K",
+        "volume": "243",
+        "year": "2024"
+    },
+    {
+        "arxiv": null,
+        "authors": [
+            "Choi, Woorak",
+            "Bureau, Martin",
+            "Liu, Lijie",
+            "Kim, Chang-Goo",
+            "Chung, Aeree"
+        ],
+        "citations": 0,
+        "doctype": "abstract",
+        "doi": null,
+        "issue": null,
+        "page": null,
+        "pub": "American Astronomical Society Meeting Abstracts",
+        "pubdate": "2024-02-00",
+        "title": "High-resolution ALMA observations and TIGRESS simulation as probes of the multiphase ISM evolution",
+        "url": "http://adsabs.harvard.edu/abs/2024AAS...24344801C",
+        "volume": "243",
         "year": "2024"
     },
     {
@@ -29,7 +248,7 @@
             "Somerville, Rachel S.",
             "Fielding, Drummond B."
         ],
-        "citations": 14,
+        "citations": 19,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ad09e1",
         "issue": "2",
@@ -59,7 +278,7 @@
             "Burkhart, Blakesley",
             "Li, Yuan"
         ],
-        "citations": 8,
+        "citations": 13,
         "doctype": "article",
         "doi": "10.1093/mnras/stad3168",
         "issue": "1",
@@ -105,7 +324,7 @@
             "Roman-Duval, Julia",
             "Murray, Claire E."
         ],
-        "citations": 1,
+        "citations": 4,
         "doctype": "eprint",
         "doi": "10.48550/arXiv.2310.17694",
         "issue": null,
@@ -130,7 +349,7 @@
             "Kim, Jeong-Gyu",
             "Halevi, Goni"
         ],
-        "citations": 1,
+        "citations": 3,
         "doctype": "article",
         "doi": "10.3847/1538-4365/aceaf9",
         "issue": "2",
@@ -182,7 +401,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 3,
+        "citations": 7,
         "doctype": "article",
         "doi": "10.3847/1538-4357/acc250",
         "issue": "2",
@@ -202,7 +421,7 @@
             "Kim, Chang-Goo",
             "Quataert, Eliot"
         ],
-        "citations": 13,
+        "citations": 20,
         "doctype": "article",
         "doi": "10.3847/1538-4357/acb81e",
         "issue": "1",
@@ -222,7 +441,7 @@
             "Gong, Munan",
             "Ostriker, Eve C."
         ],
-        "citations": 13,
+        "citations": 24,
         "doctype": "article",
         "doi": "10.3847/1538-4357/acbd3a",
         "issue": "1",
@@ -246,13 +465,13 @@
         "citations": 0,
         "doctype": "abstract",
         "doi": null,
-        "issue": "2",
+        "issue": null,
         "page": null,
         "pub": "American Astronomical Society Meeting Abstracts",
         "pubdate": "2023-01-00",
         "title": "Properties of the Cold HI Surrounding Molecular Clouds using the TIGRESS Simulation",
         "url": "http://adsabs.harvard.edu/abs/2023AAS...24121107J",
-        "volume": "55",
+        "volume": "241",
         "year": "2023"
     },
     {
@@ -263,7 +482,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 13,
+        "citations": 25,
         "doctype": "article",
         "doi": "10.3847/1538-4365/ac9b1d",
         "issue": "1",
@@ -389,7 +608,7 @@
             "Zhuravleva, Irina",
             "ZuHone, John"
         ],
-        "citations": 62,
+        "citations": 81,
         "doctype": "eprint",
         "doi": "10.48550/arXiv.2211.09827",
         "issue": null,
@@ -409,7 +628,7 @@
             "Greene, Jenny E.",
             "Lancaster, Lachlan"
         ],
-        "citations": 5,
+        "citations": 9,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ac9673",
         "issue": "2",
@@ -427,7 +646,7 @@
             "Ostriker, Eve C.",
             "Kim, Chang-Goo"
         ],
-        "citations": 30,
+        "citations": 51,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ac7de2",
         "issue": "2",
@@ -446,7 +665,7 @@
             "Kim, Chang-Goo",
             "Chung, Aeree"
         ],
-        "citations": 7,
+        "citations": 10,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ac82ba",
         "issue": "2",
@@ -469,13 +688,13 @@
         "citations": 0,
         "doctype": "abstract",
         "doi": null,
-        "issue": "6",
+        "issue": null,
         "page": null,
         "pub": "American Astronomical Society Meeting #240",
         "pubdate": "2022-06-00",
         "title": "Effects of Mass Inflows on Star Formation in Nuclear Rings at Galaxy Centers",
         "url": "http://adsabs.harvard.edu/abs/2022AAS...24034308M",
-        "volume": "54",
+        "volume": "240",
         "year": "2022"
     },
     {
@@ -568,7 +787,7 @@
             "Westmeier, T.",
             "Whiting, M. T."
         ],
-        "citations": 16,
+        "citations": 18,
         "doctype": "article",
         "doi": "10.1017/pasa.2021.59",
         "issue": null,
@@ -588,7 +807,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 13,
+        "citations": 16,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ac3a7b",
         "issue": "1",
@@ -621,7 +840,7 @@
             "Murray, Norman",
             "Wetzel, Andrew"
         ],
-        "citations": 71,
+        "citations": 84,
         "doctype": "article",
         "doi": "10.1093/mnras/stab2714",
         "issue": "2",
@@ -641,7 +860,7 @@
             "Kim, Jeong-Gyu",
             "Kim, Chang-Goo"
         ],
-        "citations": 27,
+        "citations": 36,
         "doctype": "article",
         "doi": "10.3847/2041-8213/ac3333",
         "issue": "1",
@@ -661,7 +880,7 @@
             "Hill, J. Colin",
             "Hensley, Brandon S."
         ],
-        "citations": 43,
+        "citations": 50,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ac0e35",
         "issue": "1",
@@ -681,7 +900,7 @@
             "Kim, Jeong-Gyu",
             "Kim, Chang-Goo"
         ],
-        "citations": 56,
+        "citations": 68,
         "doctype": "article",
         "doi": "10.3847/1538-4357/abf8ac",
         "issue": "2",
@@ -701,7 +920,7 @@
             "Kim, Jeong-Gyu",
             "Kim, Chang-Goo"
         ],
-        "citations": 74,
+        "citations": 81,
         "doctype": "article",
         "doi": "10.3847/1538-4357/abf8ab",
         "issue": "2",
@@ -721,7 +940,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 19,
+        "citations": 21,
         "doctype": "article",
         "doi": "10.3847/1538-4357/abfa93",
         "issue": "1",
@@ -750,7 +969,7 @@
             "Tonnesen, Stephanie",
             "Starkenburg, Tjitske"
         ],
-        "citations": 33,
+        "citations": 38,
         "doctype": "article",
         "doi": "10.3847/1538-4357/abc3c1",
         "issue": "1",
@@ -770,7 +989,7 @@
             "Park, Sangwook",
             "Ostriker, Eve C."
         ],
-        "citations": 16,
+        "citations": 21,
         "doctype": "article",
         "doi": "10.3847/1538-4357/abc1e7",
         "issue": "1",
@@ -795,7 +1014,7 @@
             "Genel, Shy",
             "Hernquist, Lars"
         ],
-        "citations": 35,
+        "citations": 43,
         "doctype": "article",
         "doi": "10.3847/2041-8213/abc252",
         "issue": "2",
@@ -815,7 +1034,7 @@
             "Kim, Chang-Goo",
             "Kim, Jeong-Gyu"
         ],
-        "citations": 53,
+        "citations": 61,
         "doctype": "article",
         "doi": "10.3847/1538-4357/abbdab",
         "issue": "2",
@@ -846,7 +1065,7 @@
             "Hayward, Christopher C.",
             "Hernquist, Lars"
         ],
-        "citations": 48,
+        "citations": 56,
         "doctype": "article",
         "doi": "10.3847/1538-4357/abbc6d",
         "issue": "1",
@@ -871,7 +1090,7 @@
             "Hernquist, Lars",
             "Pandya, Viraj"
         ],
-        "citations": 78,
+        "citations": 89,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aba962",
         "issue": "1",
@@ -889,7 +1108,7 @@
             "Seon, Kwang-il",
             "Kim, Chang-Goo"
         ],
-        "citations": 27,
+        "citations": 30,
         "doctype": "article",
         "doi": "10.3847/1538-4365/aba2d6",
         "issue": "1",
@@ -908,7 +1127,7 @@
             "Peek, J. E. G.",
             "Kim, Chang-Goo"
         ],
-        "citations": 24,
+        "citations": 26,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aba19b",
         "issue": "1",
@@ -927,7 +1146,7 @@
             "Ostriker, Eve C.",
             "Kim, Chang-Goo"
         ],
-        "citations": 21,
+        "citations": 22,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ab989c",
         "issue": "1",
@@ -946,7 +1165,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 41,
+        "citations": 45,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ab9b87",
         "issue": "1",
@@ -966,7 +1185,7 @@
             "Ostriker, Eve C.",
             "Kim, Chang-Goo"
         ],
-        "citations": 24,
+        "citations": 29,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ab9abd",
         "issue": "2",
@@ -987,7 +1206,7 @@
             "Ostriker, Eve C.",
             "Li, Miao"
         ],
-        "citations": 27,
+        "citations": 28,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ab8474",
         "issue": "1",
@@ -1008,7 +1227,7 @@
             "Quataert, Eliot",
             "Weisz, Daniel R."
         ],
-        "citations": 58,
+        "citations": 66,
         "doctype": "article",
         "doi": "10.1093/mnras/stz2773",
         "issue": "2",
@@ -1044,7 +1263,7 @@
             "Choi, Steve K.",
             "Flauger, Raphael"
         ],
-        "citations": 32,
+        "citations": 37,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ab29f2",
         "issue": "2",
@@ -1084,7 +1303,7 @@
             "Babler, Brian",
             "Kim, Chang-Goo"
         ],
-        "citations": 80,
+        "citations": 88,
         "doctype": "article",
         "doi": "10.3847/1538-4365/aad81a",
         "issue": "2",
@@ -1103,7 +1322,7 @@
             "Ostriker, Eve C.",
             "Kim, Chang-Goo"
         ],
-        "citations": 54,
+        "citations": 57,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aab9af",
         "issue": "1",
@@ -1121,7 +1340,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 154,
+        "citations": 164,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aaa5ff",
         "issue": "2",
@@ -1139,7 +1358,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 160,
+        "citations": 178,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aa8599",
         "issue": "2",
@@ -1163,7 +1382,7 @@
             "Dickey, John M.",
             "Babler, Brian"
         ],
-        "citations": 23,
+        "citations": 24,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aa5d12",
         "issue": "1",
@@ -1187,7 +1406,7 @@
             "McKee, Christopher F.",
             "Stone, James M."
         ],
-        "citations": 47,
+        "citations": 48,
         "doctype": "article",
         "doi": "10.1093/mnras/stw2647",
         "issue": "1",
@@ -1206,7 +1425,7 @@
             "Ostriker, Eve C.",
             "Raileanu, Roberta"
         ],
-        "citations": 130,
+        "citations": 144,
         "doctype": "article",
         "doi": "10.3847/1538-4357/834/1/25",
         "issue": "1",
@@ -1261,7 +1480,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 96,
+        "citations": 102,
         "doctype": "article",
         "doi": "10.1088/0004-637X/815/1/67",
         "issue": "1",
@@ -1292,12 +1511,33 @@
         "year": "2015"
     },
     {
+        "arxiv": null,
+        "authors": [
+            "Lee, Nak Joong",
+            "Kim, In Chul",
+            "Kim, Chang Goo",
+            "Hyun, Beom Soo",
+            "Lee, Young Ho"
+        ],
+        "citations": 1,
+        "doctype": "article",
+        "doi": "10.1016/j.renene.2014.11.022",
+        "issue": null,
+        "page": 122,
+        "pub": "Renewable Energy",
+        "pubdate": "2015-07-00",
+        "title": "Performance study on a counter-rotating tidal current turbine by CFD and model experimentation",
+        "url": "http://adsabs.harvard.edu/abs/2015REne...79..122L",
+        "volume": "79",
+        "year": "2015"
+    },
+    {
         "arxiv": "1410.1537",
         "authors": [
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 309,
+        "citations": 333,
         "doctype": "article",
         "doi": "10.1088/0004-637X/802/2/99",
         "issue": "2",
@@ -1352,7 +1592,7 @@
             "Ostriker, Eve C.",
             "Kim, Woong-Tae"
         ],
-        "citations": 48,
+        "citations": 50,
         "doctype": "article",
         "doi": "10.1088/0004-637X/786/1/64",
         "issue": "1",
@@ -1389,7 +1629,7 @@
             "Ostriker, Eve C.",
             "Kim, Woong-Tae"
         ],
-        "citations": 180,
+        "citations": 189,
         "doctype": "article",
         "doi": "10.1088/0004-637X/776/1/1",
         "issue": "1",
@@ -1426,7 +1666,7 @@
             "Kim, Woong-Tae",
             "Ostriker, Eve C."
         ],
-        "citations": 134,
+        "citations": 142,
         "doctype": "article",
         "doi": "10.1088/0004-637X/743/1/25",
         "issue": "1",
@@ -1445,7 +1685,7 @@
             "Kim, Woong-Tae",
             "Ostriker, Eve C."
         ],
-        "citations": 23,
+        "citations": 25,
         "doctype": "article",
         "doi": "10.1088/0004-637X/720/2/1454",
         "issue": "2",
@@ -1502,7 +1742,7 @@
             "Kim, Woong-Tae",
             "Ostriker, Eve C."
         ],
-        "citations": 45,
+        "citations": 46,
         "doctype": "article",
         "doi": "10.1086/508160",
         "issue": "1",
