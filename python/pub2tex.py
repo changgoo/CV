@@ -5,17 +5,19 @@ import json
 import re
 from utf8totex import utf8totex
 
-students = [
-    "raileanu",
-    "el-badry",
-    "vijayan",
-    "woorak",
-    "kado-fong",
-    "mao",
-    "moon",
-    "lancaster",
-    "guo",
-]
+students = {
+    "raileanu":slice(2015,2017),
+    "el-badry":slice(2018,2019),
+    "vijayan":slice(2018,2020),
+    "woorak":slice(2020,2024),
+    "kado-fong":slice(2018,2022),
+    "mao":slice(2018,2022),
+    "moon":slice(2020,2023),
+    "lancaster":slice(2020,2023),
+    "gong":slice(2015,2018),
+    "guo":slice(2020,2025),
+    "linzer":slice(2020,2025)
+}
 
 _JOURNAL_MAP = {
     "ArXiv e-prints": "ArXiv",
@@ -51,6 +53,8 @@ JOURNAL_MAP = {}
 for k, v in _JOURNAL_MAP.items():
     JOURNAL_MAP[k.lower()] = v
 
+def in_slice(number, slc):
+    return (int(number) >= slc.start) & (int(number) <= slc.stop)
 
 def format_name(name):
     try:
@@ -65,6 +69,7 @@ def format_name(name):
 
 
 def parse_authors(paper_dict, max_authors=4):
+    year = paper_dict["year"]
     raw_authors = [utf8totex(x) for x in paper_dict["authors"]]
 
     show_authors = raw_authors[:max_authors]
@@ -78,7 +83,8 @@ def parse_authors(paper_dict, max_authors=4):
             else:
                 if i == 0:
                     for stuname in students:
-                        if stuname in name.lower():
+                        if (stuname in name.lower()) & in_slice(year, students[stuname]):
+                            # print(name, year, students[stuname])
                             name = "\\student{" + name + "}"
             names.append(name)
 
@@ -196,10 +202,11 @@ def get_paper_items(papers, periods=None):
             )
 
         if is_preprint:
-            if "armillotta" in paper["authors"][0].lower():
-                entry += ", ApJ in press"
-                is_preprint = False
-            elif "kraft" in paper["authors"][0].lower():
+            # if "armillotta" in paper["authors"][0].lower():
+            #     entry += ", ApJ in press"
+            #     is_preprint = False
+
+            if "kraft" in paper["authors"][0].lower():
                 continue
             else:
                 entry += ", ApJ submitted"
@@ -226,6 +233,8 @@ def get_paper_items(papers, periods=None):
                     and (myname in paper["authors"][2])
                 )
                 or ("jeong-gyu" in paper["authors"][0].lower())
+                or ("sultan" in paper["authors"][0].lower())
+                or ("sarah" in paper["authors"][0].lower())
             ):
                 print(paper["authors"][0])
                 sec_refs.append(entry)
@@ -349,11 +358,11 @@ if __name__ == "__main__":
 
     # publications in specific periods
     refs, unrefs, first_refs, sec_refs, other_refs = get_paper_items(
-        papers, periods=["2022-01-01", "2023-12-31"]
+        papers, periods=["2023-01-01", "2024-12-31"]
     )
 
-    with open(path.join(dirpath, "pubs_ref_2022-2023.tex"), "w") as fp:
+    with open(path.join(dirpath, "pubs_ref_2023-2024.tex"), "w") as fp:
          fp.write("\n\n".join(refs))
 
-    # with open(path.join(dirpath, "pubs_arxiv_2022-2023.tex"), "w") as fp:
-    #      fp.write("\n\n".join(unrefs))
+    with open(path.join(dirpath, "pubs_arxiv_2023-2024.tex"), "w") as fp:
+         fp.write("\n\n".join(unrefs))
