@@ -1,5 +1,37 @@
 [
     {
+        "talk": "Contributed Talk",
+        "y1": "10/2025",
+        "y2": "None",
+        "title": "TIGRESS++ Simulations of Star-Forming Disks: Self-Consistent CR Feedback and Multiphase Outflows",
+        "conf": "Korean Astronomical Society Fall Meeting",
+        "venue": "Jeju, Korea"
+    },
+    {
+        "talk": "Invited Talk",
+        "y1": "09/2025",
+        "y2": "None",
+        "title": "Bridging Galactic and Cosmological Scales: Baryonic Modeling for Next-Generation Simulations",
+        "conf": "Simons Collaboration on Learning the Universe Annual Meeting",
+        "venue": "New York, NY"
+    },
+    {
+        "talk": "Seminar",
+        "y1": "09/2025",
+        "y2": "None",
+        "title": "TIGRESS++ Simulations of Star-Forming Disks: Self-Consistent CR Feedback and Multiphase Outflows",
+        "conf": "Bahcall Lunch",
+        "venue": "Princeton, NJ"
+    },
+    {
+        "talk": "Contributed Talk",
+        "y1": "07/2025",
+        "y2": "None",
+        "title": "Caveats: shearing-box? or not?",
+        "conf": "Lorentz Center workshop: Numerical Recipes in Star Formation",
+        "venue": "Leiden, The Netherlands"
+    },
+    {
         "talk": "Invited Talk",
         "y1": "06/2024",
         "y2": "None",
@@ -22,6 +54,14 @@
         "title": "Metallicity Dependence of Pressure-Regulated Feedback-Modulated Star Formation in the TIGRESS-NCR Simulation Suite",
         "conf": "Recipes to Regulate Star Formation at All Scales: From the Nearby Universe to the First Galaxies",
         "venue": "Baltimore, MD"
+    },
+    {
+        "talk": "Seminar",
+        "y1": "03/2024",
+        "y2": "None",
+        "title": "Metallicity dependence of Galactic Star Formation Rates",
+        "conf": "Bahcall Lunch",
+        "venue": "Princeton, NJ"
     },
     {
         "talk": "Seminar",

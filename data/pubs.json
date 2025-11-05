@@ -1,5 +1,280 @@
 [
     {
+        "arxiv": "2502.13244",
+        "authors": [
+            "Burger, Jan D.",
+            "Springel, Volker",
+            "Ostriker, Eve C.",
+            "Kim, Chang-Goo",
+            "Jeffreson, Sarah M. R.",
+            "Smith, Matthew C.",
+            "Pakmor, R\u00fcdiger",
+            "Hassan, Sultan",
+            "Fielding, Drummond",
+            "Hernquist, Lars",
+            "Bryan, Greg L.",
+            "Somerville, Rachel S.",
+            "Bennett, Jake S.",
+            "Weinberger, Rainer"
+        ],
+        "citations": 4,
+        "doctype": "article",
+        "doi": "10.1093/mnras/staf1720",
+        "issue": null,
+        "page": null,
+        "pub": "Monthly Notices of the Royal Astronomical Society",
+        "pubdate": "2025-10-00",
+        "title": "Applying a star formation model calibrated on high-resolution interstellar medium simulations to cosmological simulations of galaxy formation",
+        "url": "http://adsabs.harvard.edu/abs/2025MNRAS.tmp.1614B",
+        "volume": null,
+        "year": "2025"
+    },
+    {
+        "arxiv": "2410.12909",
+        "authors": [
+            "Bennett, Jake S.",
+            "Smith, Matthew C.",
+            "Fielding, Drummond B.",
+            "Bryan, Greg L.",
+            "Kim, Chang-Goo",
+            "Springel, Volker",
+            "Hernquist, Lars",
+            "Somerville, Rachel S.",
+            "Sommovigo, Laura"
+        ],
+        "citations": 9,
+        "doctype": "article",
+        "doi": "10.1093/mnras/staf1440",
+        "issue": "2",
+        "page": 1456,
+        "pub": "Monthly Notices of the Royal Astronomical Society",
+        "pubdate": "2025-10-00",
+        "title": "Prevention is better than cure? Feedback from high specific energy winds in cosmological simulations with ARKENSTONE",
+        "url": "http://adsabs.harvard.edu/abs/2025MNRAS.543.1456B",
+        "volume": "543",
+        "year": "2025"
+    },
+    {
+        "arxiv": "2407.14599",
+        "authors": [
+            "Steinwandel, Ulrich P.",
+            "Rennehan, Douglas",
+            "Orr, Matthew E.",
+            "Fielding, Drummond B.",
+            "Kim, Chang-Goo"
+        ],
+        "citations": 7,
+        "doctype": "article",
+        "doi": "10.3847/1538-4357/adf283",
+        "issue": "1",
+        "page": 16,
+        "pub": "The Astrophysical Journal",
+        "pubdate": "2025-09-00",
+        "title": "Pumping Iron: How Turbulent Metal Diffusion Impacts Multiphase Galactic Outflows",
+        "url": "http://adsabs.harvard.edu/abs/2025ApJ...991...16S",
+        "volume": "991",
+        "year": "2025"
+    },
+    {
+        "arxiv": "2509.03519",
+        "authors": [
+            "Hix, Ronan",
+            "Armillotta, Lucia",
+            "Ostriker, Eve",
+            "Kim, Chang-Goo"
+        ],
+        "citations": 0,
+        "doctype": "eprint",
+        "doi": "10.48550/arXiv.2509.03519",
+        "issue": null,
+        "page": null,
+        "pub": "arXiv e-prints",
+        "pubdate": "2025-09-00",
+        "title": "Dynamically Controlled Transport of GeV Cosmic Rays in Diverse Galactic Environments",
+        "url": "http://adsabs.harvard.edu/abs/2025arXiv250903519H",
+        "volume": null,
+        "year": "2025"
+    },
+    {
+        "arxiv": "2411.12809",
+        "authors": [
+            "Guo, Minghao",
+            "Kim, Chang-Goo",
+            "Stone, James M."
+        ],
+        "citations": 8,
+        "doctype": "article",
+        "doi": "10.3847/1538-4357/adeb85",
+        "issue": "1",
+        "page": 49,
+        "pub": "The Astrophysical Journal",
+        "pubdate": "2025-09-00",
+        "title": "Evolution of Supernova Remnants in a Cloudy Multiphase Interstellar Medium",
+        "url": "http://adsabs.harvard.edu/abs/2025ApJ...990...49G",
+        "volume": "990",
+        "year": "2025"
+    },
+    {
+        "arxiv": "2505.22733",
+        "authors": [
+            "Lancaster, Lachlan",
+            "Kim, Chang-Goo",
+            "Kim, Jeong-Gyu",
+            "Ostriker, Eve C.",
+            "Bryan, Greg L."
+        ],
+        "citations": 3,
+        "doctype": "article",
+        "doi": "10.3847/1538-4357/ade66c",
+        "issue": "1",
+        "page": 43,
+        "pub": "The Astrophysical Journal",
+        "pubdate": "2025-08-00",
+        "title": "The Coevolution of Stellar Wind-blown Bubbles and Photoionized Gas. II. 3D RMHD Simulations and Tests of Semianalytic Models",
+        "url": "http://adsabs.harvard.edu/abs/2025ApJ...989...43L",
+        "volume": "989",
+        "year": "2025"
+    },
+    {
+        "arxiv": "2505.22730",
+        "authors": [
+            "Lancaster, Lachlan",
+            "Kim, Jeong-Gyu",
+            "Bryan, Greg L.",
+            "Menon, Shyam H.",
+            "Ostriker, Eve C.",
+            "Kim, Chang-Goo"
+        ],
+        "citations": 3,
+        "doctype": "article",
+        "doi": "10.3847/1538-4357/ade66b",
+        "issue": "1",
+        "page": 42,
+        "pub": "The Astrophysical Journal",
+        "pubdate": "2025-08-00",
+        "title": "The Coevolution of Stellar Wind-blown Bubbles and Photoionized Gas. I. Physical Principles and a Semianalytic Model",
+        "url": "http://adsabs.harvard.edu/abs/2025ApJ...989...42L",
+        "volume": "989",
+        "year": "2025"
+    },
+    {
+        "arxiv": "2506.22381",
+        "authors": [
+            "Vijayakumar, Vivek",
+            "Sun, Jiayi",
+            "Ostriker, Eve C.",
+            "Di Teodoro, Enrico M.",
+            "Haubner, Konstantin",
+            "Kim, Chang-Goo",
+            "Leroy, Adam K.",
+            "Querejeta, Miguel"
+        ],
+        "citations": 3,
+        "doctype": "article",
+        "doi": "10.3847/1538-4357/ade800",
+        "issue": "1",
+        "page": 66,
+        "pub": "The Astrophysical Journal",
+        "pubdate": "2025-08-00",
+        "title": "Modeling the Mass Distribution and Gravitational Potential of Nearby Disk Galaxies: Implications for the Interstellar Medium Dynamical Equilibrium",
+        "url": "http://adsabs.harvard.edu/abs/2025ApJ...989...66V",
+        "volume": "989",
+        "year": "2025"
+    },
+    {
+        "arxiv": "2506.11792",
+        "authors": [
+            "Koch, Eric W.",
+            "Leroy, Adam K.",
+            "Rosolowsky, Erik W.",
+            "Chomiuk, Laura",
+            "Dalcanton, Julianne J.",
+            "Pingel, Nickolas M.",
+            "Sarbadhicary, Sumit K.",
+            "Stanimirovi\u0107, Sne\u017eana",
+            "Walter, Fabian",
+            "Archer, Haylee N.",
+            "Bolatto, Alberto D.",
+            "Busch, Michael P.",
+            "Chen, Hongxing",
+            "Chown, Ryan",
+            "Corbould, Harrisen",
+            "Cronin, Serena A.",
+            "Darling, Jeremy",
+            "Do, Thomas",
+            "Meyer, Jennifer Donovan",
+            "Eibensteiner, Cosima",
+            "Hunter, Deidre",
+            "Indebetouw, R\u00e9my",
+            "Jagannathan, Preshanth",
+            "Kepley, Amanda A.",
+            "Kim, Chang-Goo",
+            "Kim, Shin-Jeong",
+            "Kovacs, Timea O.",
+            "Marvil, Joshua",
+            "Murphy, Eric J.",
+            "Murray, Claire E.",
+            "Ott, J\u00fcrgen",
+            "Pisano, D. J.",
+            "Putman, Mary",
+            "Rybarczyk, Daniel R.",
+            "Roman-Duval, Julia",
+            "Sandstrom, Karin",
+            "Schinnerer, Eva",
+            "Skillman, Evan D.",
+            "Smercina, Adam",
+            "Stelea, Ioana",
+            "Strader, Jay",
+            "Sun, Jiayi",
+            "Tallapaneni, Devisree",
+            "Tarantino, Elizabeth",
+            "Villanueva, Vicente",
+            "Weisz, Daniel R.",
+            "Williams, Thomas G.",
+            "Wong, Tony"
+        ],
+        "citations": 2,
+        "doctype": "article",
+        "doi": "10.3847/1538-4365/ade0ad",
+        "issue": "2",
+        "page": 35,
+        "pub": "The Astrophysical Journal Supplement Series",
+        "pubdate": "2025-08-00",
+        "title": "The Karl G. Jansky Very Large Array Local Group L-Band Survey (LGLBS)",
+        "url": "http://adsabs.harvard.edu/abs/2025ApJS..279...35K",
+        "volume": "279",
+        "year": "2025"
+    },
+    {
+        "arxiv": null,
+        "authors": [
+            "Leroy, Adam",
+            "Bolatto, Alberto",
+            "Chown, Ryan",
+            "Fisher, Deanne B.",
+            "Kim, Chang-Goo",
+            "Koch, Eric",
+            "Krahm, Grace Noelle",
+            "Ostriker, Eve C.",
+            "Rosolowsky, Erik",
+            "Sandstrom, Karin Marie",
+            "Sun, Jiayi",
+            "Wong, Tony",
+            "Yim, Kijeong"
+        ],
+        "citations": 0,
+        "doctype": "proposal",
+        "doi": null,
+        "issue": null,
+        "page": 7985,
+        "pub": "JWST Proposal. Cycle 4",
+        "pubdate": "2025-03-00",
+        "title": "Resolving the thin disk of a nearby Milky Way analog",
+        "url": "http://adsabs.harvard.edu/abs/2025jwst.prop.7985L",
+        "volume": null,
+        "year": "2025"
+    },
+    {
         "arxiv": null,
         "authors": [
             "Guo, Minghao",
@@ -12,7 +287,7 @@
         "doi": null,
         "issue": null,
         "page": null,
-        "pub": "American Astronomical Society Meeting Abstracts",
+        "pub": "American Astronomical Society Meeting Abstracts #245",
         "pubdate": "2025-01-00",
         "title": "Magnetized Accretion onto and Feedback from Supermassive Black Holes in Elliptical Galaxies",
         "url": "http://adsabs.harvard.edu/abs/2025AAS...24541907G",
@@ -30,7 +305,7 @@
             "Ostriker, Eve C.",
             "Somerville, Rachel S."
         ],
-        "citations": 4,
+        "citations": 12,
         "doctype": "article",
         "doi": "10.1093/mnras/stae2589",
         "issue": "4",
@@ -40,25 +315,6 @@
         "title": "ARKENSTONE - II. A model for unresolved cool clouds entrained in galactic winds in cosmological simulations",
         "url": "http://adsabs.harvard.edu/abs/2024MNRAS.535.3550S",
         "volume": "535",
-        "year": "2024"
-    },
-    {
-        "arxiv": "2411.12809",
-        "authors": [
-            "Guo, Minghao",
-            "Kim, Chang-Goo",
-            "Stone, James M."
-        ],
-        "citations": 2,
-        "doctype": "eprint",
-        "doi": "10.48550/arXiv.2411.12809",
-        "issue": null,
-        "page": null,
-        "pub": "arXiv e-prints",
-        "pubdate": "2024-11-00",
-        "title": "Evolution of Supernova Remnants in a Cloudy Multiphase Interstellar Medium",
-        "url": "http://adsabs.harvard.edu/abs/2024arXiv241112809G",
-        "volume": null,
         "year": "2024"
     },
     {
@@ -73,7 +329,7 @@
             "Hernquist, Lars",
             "Hassan, Sultan"
         ],
-        "citations": 0,
+        "citations": 1,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ad793f",
         "issue": "1",
@@ -93,7 +349,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 3,
+        "citations": 7,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ad7733",
         "issue": "2",
@@ -124,7 +380,7 @@
             "Steinwandel, Ulrich P.",
             "Teyssier, Romain"
         ],
-        "citations": 2,
+        "citations": 6,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ad73a4",
         "issue": "1",
@@ -137,29 +393,6 @@
         "year": "2024"
     },
     {
-        "arxiv": "2410.12909",
-        "authors": [
-            "Bennett, Jake S.",
-            "Smith, Matthew C.",
-            "Fielding, Drummond B.",
-            "Bryan, Greg L.",
-            "Kim, Chang-Goo",
-            "Springel, Volker",
-            "Hernquist, Lars"
-        ],
-        "citations": 1,
-        "doctype": "eprint",
-        "doi": "10.48550/arXiv.2410.12909",
-        "issue": null,
-        "page": null,
-        "pub": "arXiv e-prints",
-        "pubdate": "2024-10-00",
-        "title": "Prevention is better than cure? Feedback from high specific energy winds in cosmological simulations with Arkenstone",
-        "url": "http://adsabs.harvard.edu/abs/2024arXiv241012909B",
-        "volume": null,
-        "year": "2024"
-    },
-    {
         "arxiv": "2404.15396",
         "authors": [
             "Diesing, Rebecca",
@@ -168,7 +401,7 @@
             "Stone, James",
             "Caprioli, Damiano"
         ],
-        "citations": 3,
+        "citations": 6,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ad74f0",
         "issue": "2",
@@ -202,7 +435,7 @@
             "Villanueva, Vicente",
             "Williams, Thomas G."
         ],
-        "citations": 1,
+        "citations": 4,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ad6604",
         "issue": "1",
@@ -222,7 +455,7 @@
             "Quataert, Eliot",
             "Kim, Chang-Goo"
         ],
-        "citations": 15,
+        "citations": 35,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ad5fe7",
         "issue": "2",
@@ -249,7 +482,7 @@
             "Somerville, Rachel S.",
             "Steinwandel, Ulrich P."
         ],
-        "citations": 7,
+        "citations": 14,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ad59ab",
         "issue": "1",
@@ -262,27 +495,6 @@
         "year": "2024"
     },
     {
-        "arxiv": "2407.14599",
-        "authors": [
-            "Steinwandel, Ulrich P.",
-            "Rennehan, Douglas",
-            "Orr, Matthew E.",
-            "Fielding, Drummond B.",
-            "Kim, Chang-Goo"
-        ],
-        "citations": 5,
-        "doctype": "eprint",
-        "doi": "10.48550/arXiv.2407.14599",
-        "issue": null,
-        "page": null,
-        "pub": "arXiv e-prints",
-        "pubdate": "2024-07-00",
-        "title": "Pumping Iron: How turbulent metal diffusion impacts multiphase galactic outflows",
-        "url": "http://adsabs.harvard.edu/abs/2024arXiv240714599S",
-        "volume": null,
-        "year": "2024"
-    },
-    {
         "arxiv": "2405.02396",
         "authors": [
             "Lancaster, Lachlan",
@@ -291,7 +503,7 @@
             "Kim, Jeong-Gyu",
             "Bryan, Greg L."
         ],
-        "citations": 7,
+        "citations": 21,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ad47f6",
         "issue": "1",
@@ -306,6 +518,27 @@
     {
         "arxiv": null,
         "authors": [
+            "Diesing, Rebecca",
+            "Guo, Minghao",
+            "Kim, Chang-Goo",
+            "Stone, James",
+            "Caprioli, Damiano"
+        ],
+        "citations": 0,
+        "doctype": "inproceedings",
+        "doi": null,
+        "issue": null,
+        "page": 156,
+        "pub": "Supernova Remnants III: An Odyssey in Space after Stellar Death",
+        "pubdate": "2024-06-00",
+        "title": "SNRs in their Golden Years: Nonthermal Signatures of Radiative Supernova Remnants",
+        "url": "http://adsabs.harvard.edu/abs/2024sros.confE.156D",
+        "volume": null,
+        "year": "2024"
+    },
+    {
+        "arxiv": null,
+        "authors": [
             "Kim, Chang-Goo"
         ],
         "citations": 0,
@@ -313,7 +546,7 @@
         "doi": null,
         "issue": null,
         "page": null,
-        "pub": "American Astronomical Society Meeting Abstracts",
+        "pub": "American Astronomical Society Meeting Abstracts #244",
         "pubdate": "2024-06-00",
         "title": "Turbulence, Magnetic Fields, and Thermodynamics of the ISM in Regulating Galactic Star Formation Rates",
         "url": "http://adsabs.harvard.edu/abs/2024AAS...24421503K",
@@ -330,7 +563,7 @@
         "doi": null,
         "issue": null,
         "page": null,
-        "pub": "American Astronomical Society Meeting Abstracts",
+        "pub": "American Astronomical Society Meeting Abstracts #244",
         "pubdate": "2024-06-00",
         "title": "Numerical modeling of the star-forming ISM: state-of-the-art and remaining challenges",
         "url": "http://adsabs.harvard.edu/abs/2024AAS...24412002K",
@@ -345,7 +578,7 @@
             "Kim, Chang-Goo",
             "Jiang, Yan-Fei"
         ],
-        "citations": 16,
+        "citations": 32,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ad1e5c",
         "issue": "1",
@@ -370,7 +603,7 @@
         "doi": null,
         "issue": null,
         "page": null,
-        "pub": "American Astronomical Society Meeting Abstracts",
+        "pub": "American Astronomical Society Meeting Abstracts #243",
         "pubdate": "2024-02-00",
         "title": "Magnetic Fields and Star Formation in Nuclear Rings of Disk Galaxies",
         "url": "http://adsabs.harvard.edu/abs/2024AAS...24340511K",
@@ -391,7 +624,7 @@
         "doi": null,
         "issue": null,
         "page": null,
-        "pub": "American Astronomical Society Meeting Abstracts",
+        "pub": "American Astronomical Society Meeting Abstracts #243",
         "pubdate": "2024-02-00",
         "title": "High-resolution ALMA observations and TIGRESS simulation as probes of the multiphase ISM evolution",
         "url": "http://adsabs.harvard.edu/abs/2024AAS...24344801C",
@@ -408,7 +641,7 @@
             "Somerville, Rachel S.",
             "Fielding, Drummond B."
         ],
-        "citations": 32,
+        "citations": 44,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ad09e1",
         "issue": "2",
@@ -438,7 +671,7 @@
             "Burkhart, Blakesley",
             "Li, Yuan"
         ],
-        "citations": 21,
+        "citations": 33,
         "doctype": "article",
         "doi": "10.1093/mnras/stad3168",
         "issue": "1",
@@ -484,7 +717,7 @@
             "Roman-Duval, Julia",
             "Murray, Claire E."
         ],
-        "citations": 7,
+        "citations": 8,
         "doctype": "eprint",
         "doi": "10.48550/arXiv.2310.17694",
         "issue": null,
@@ -509,7 +742,7 @@
             "Kim, Jeong-Gyu",
             "Halevi, Goni"
         ],
-        "citations": 3,
+        "citations": 7,
         "doctype": "article",
         "doi": "10.3847/1538-4365/aceaf9",
         "issue": "2",
@@ -561,7 +794,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 8,
+        "citations": 10,
         "doctype": "article",
         "doi": "10.3847/1538-4357/acc250",
         "issue": "2",
@@ -581,7 +814,7 @@
             "Kim, Chang-Goo",
             "Quataert, Eliot"
         ],
-        "citations": 24,
+        "citations": 44,
         "doctype": "article",
         "doi": "10.3847/1538-4357/acb81e",
         "issue": "1",
@@ -601,7 +834,7 @@
             "Gong, Munan",
             "Ostriker, Eve C."
         ],
-        "citations": 41,
+        "citations": 61,
         "doctype": "article",
         "doi": "10.3847/1538-4357/acbd3a",
         "issue": "1",
@@ -627,7 +860,7 @@
         "doi": null,
         "issue": null,
         "page": null,
-        "pub": "American Astronomical Society Meeting Abstracts",
+        "pub": "American Astronomical Society Meeting Abstracts #241",
         "pubdate": "2023-01-00",
         "title": "Properties of the Cold HI Surrounding Molecular Clouds using the TIGRESS Simulation",
         "url": "http://adsabs.harvard.edu/abs/2023AAS...24121107J",
@@ -642,7 +875,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 36,
+        "citations": 52,
         "doctype": "article",
         "doi": "10.3847/1538-4365/ac9b1d",
         "issue": "1",
@@ -768,7 +1001,7 @@
             "Zhuravleva, Irina",
             "ZuHone, John"
         ],
-        "citations": 95,
+        "citations": 104,
         "doctype": "eprint",
         "doi": "10.48550/arXiv.2211.09827",
         "issue": null,
@@ -788,7 +1021,7 @@
             "Greene, Jenny E.",
             "Lancaster, Lachlan"
         ],
-        "citations": 12,
+        "citations": 14,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ac9673",
         "issue": "2",
@@ -806,7 +1039,7 @@
             "Ostriker, Eve C.",
             "Kim, Chang-Goo"
         ],
-        "citations": 73,
+        "citations": 98,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ac7de2",
         "issue": "2",
@@ -825,7 +1058,7 @@
             "Kim, Chang-Goo",
             "Chung, Aeree"
         ],
-        "citations": 12,
+        "citations": 15,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ac82ba",
         "issue": "2",
@@ -875,7 +1108,7 @@
             "Pakmor, R\u00fcdiger",
             "Hernquist, Lars"
         ],
-        "citations": 13,
+        "citations": 14,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ac3d2d",
         "issue": "2",
@@ -904,19 +1137,19 @@
             "Dawson, J. R.",
             "D\u00e9nes, H.",
             "Di Teodoro, E. M.",
-            "For, B. -Q.",
+            "For, B.-Q.",
             "Foster, Tyler J.",
             "G\u00f3mez, J. F.",
             "Imai, H.",
             "Joncas, G.",
-            "Kim, C. -G.",
-            "Lee, M. -Y.",
+            "Kim, C.-G.",
+            "Lee, M.-Y.",
             "Lynn, C.",
             "Leahy, D.",
             "Ma, Y. K.",
             "Marchal, A.",
             "McConnell, D.",
-            "Miville-Desch\u00e8nes, M. -A.",
+            "Miville-Desch\u00e8nes, M.-A.",
             "Moss, V. A.",
             "Murray, C. E.",
             "Nidever, D.",
@@ -932,7 +1165,7 @@
             "Anderson, C. S.",
             "Ball, Lewis",
             "Bell, M.",
-            "Bock, D. C. -J.",
+            "Bock, D. C.-J.",
             "Bunton, J.",
             "Cooray, F. R.",
             "Cornwell, T.",
@@ -947,7 +1180,7 @@
             "Westmeier, T.",
             "Whiting, M. T."
         ],
-        "citations": 26,
+        "citations": 34,
         "doctype": "article",
         "doi": "10.1017/pasa.2021.59",
         "issue": null,
@@ -1000,7 +1233,7 @@
             "Murray, Norman",
             "Wetzel, Andrew"
         ],
-        "citations": 106,
+        "citations": 136,
         "doctype": "article",
         "doi": "10.1093/mnras/stab2714",
         "issue": "2",
@@ -1020,7 +1253,7 @@
             "Kim, Jeong-Gyu",
             "Kim, Chang-Goo"
         ],
-        "citations": 42,
+        "citations": 53,
         "doctype": "article",
         "doi": "10.3847/2041-8213/ac3333",
         "issue": "1",
@@ -1040,7 +1273,7 @@
             "Hill, J. Colin",
             "Hensley, Brandon S."
         ],
-        "citations": 55,
+        "citations": 65,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ac0e35",
         "issue": "1",
@@ -1060,7 +1293,7 @@
             "Kim, Jeong-Gyu",
             "Kim, Chang-Goo"
         ],
-        "citations": 75,
+        "citations": 94,
         "doctype": "article",
         "doi": "10.3847/1538-4357/abf8ac",
         "issue": "2",
@@ -1080,7 +1313,7 @@
             "Kim, Jeong-Gyu",
             "Kim, Chang-Goo"
         ],
-        "citations": 89,
+        "citations": 106,
         "doctype": "article",
         "doi": "10.3847/1538-4357/abf8ab",
         "issue": "2",
@@ -1113,6 +1346,65 @@
         "year": "2021"
     },
     {
+        "arxiv": null,
+        "authors": [
+            "Kim, Woong-Tae",
+            "Kim, Chang-Goo",
+            "Ostriker, Eve C."
+        ],
+        "citations": 0,
+        "doctype": "article",
+        "doi": null,
+        "issue": "1",
+        "page": null,
+        "pub": "The Bulletin of The Korean Astronomical Society",
+        "pubdate": "2021-00-00",
+        "title": "Local TIGRESS Simulations of Star Formation in Spiral Galaxies",
+        "url": "http://adsabs.harvard.edu/abs/2021BKAS...46Q..51K",
+        "volume": "46",
+        "year": "2021"
+    },
+    {
+        "arxiv": null,
+        "authors": [
+            "Moon, Sanghyuk",
+            "Kim, Woong-Tae",
+            "Kim, Chang-Goo",
+            "Ostriker, Eve C."
+        ],
+        "citations": 0,
+        "doctype": "article",
+        "doi": null,
+        "issue": "2",
+        "page": null,
+        "pub": "The Bulletin of The Korean Astronomical Society",
+        "pubdate": "2021-00-00",
+        "title": "Role of Mass Inflow and Supernova Feedback on Nuclear Ring Star Formation",
+        "url": "http://adsabs.harvard.edu/abs/2021BKAS...46...37M",
+        "volume": "46",
+        "year": "2021"
+    },
+    {
+        "arxiv": null,
+        "authors": [
+            "Moon, Sanghyuk",
+            "Kim, Woong-Tae",
+            "Kim, Chang-Goo",
+            "Ostriker, Eve C."
+        ],
+        "citations": 0,
+        "doctype": "article",
+        "doi": null,
+        "issue": "1",
+        "page": null,
+        "pub": "The Bulletin of The Korean Astronomical Society",
+        "pubdate": "2021-00-00",
+        "title": "Star formation in nuclear rings controlled by bar-driven gas inflow",
+        "url": "http://adsabs.harvard.edu/abs/2021BKAS...46...51M",
+        "volume": "46",
+        "year": "2021"
+    },
+    {
         "arxiv": "2006.16317",
         "authors": [
             "Pandya, Viraj",
@@ -1129,7 +1421,7 @@
             "Tonnesen, Stephanie",
             "Starkenburg, Tjitske"
         ],
-        "citations": 40,
+        "citations": 47,
         "doctype": "article",
         "doi": "10.3847/1538-4357/abc3c1",
         "issue": "1",
@@ -1149,7 +1441,7 @@
             "Park, Sangwook",
             "Ostriker, Eve C."
         ],
-        "citations": 24,
+        "citations": 26,
         "doctype": "article",
         "doi": "10.3847/1538-4357/abc1e7",
         "issue": "1",
@@ -1174,7 +1466,7 @@
             "Genel, Shy",
             "Hernquist, Lars"
         ],
-        "citations": 49,
+        "citations": 56,
         "doctype": "article",
         "doi": "10.3847/2041-8213/abc252",
         "issue": "2",
@@ -1194,7 +1486,7 @@
             "Kim, Chang-Goo",
             "Kim, Jeong-Gyu"
         ],
-        "citations": 72,
+        "citations": 87,
         "doctype": "article",
         "doi": "10.3847/1538-4357/abbdab",
         "issue": "2",
@@ -1225,7 +1517,7 @@
             "Hayward, Christopher C.",
             "Hernquist, Lars"
         ],
-        "citations": 61,
+        "citations": 69,
         "doctype": "article",
         "doi": "10.3847/1538-4357/abbc6d",
         "issue": "1",
@@ -1250,7 +1542,7 @@
             "Hernquist, Lars",
             "Pandya, Viraj"
         ],
-        "citations": 107,
+        "citations": 125,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aba962",
         "issue": "1",
@@ -1268,7 +1560,7 @@
             "Seon, Kwang-il",
             "Kim, Chang-Goo"
         ],
-        "citations": 32,
+        "citations": 36,
         "doctype": "article",
         "doi": "10.3847/1538-4365/aba2d6",
         "issue": "1",
@@ -1287,7 +1579,7 @@
             "Peek, J. E. G.",
             "Kim, Chang-Goo"
         ],
-        "citations": 31,
+        "citations": 36,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aba19b",
         "issue": "1",
@@ -1306,7 +1598,7 @@
             "Ostriker, Eve C.",
             "Kim, Chang-Goo"
         ],
-        "citations": 25,
+        "citations": 29,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ab989c",
         "issue": "1",
@@ -1325,7 +1617,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 48,
+        "citations": 56,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ab9b87",
         "issue": "1",
@@ -1345,7 +1637,7 @@
             "Ostriker, Eve C.",
             "Kim, Chang-Goo"
         ],
-        "citations": 32,
+        "citations": 36,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ab9abd",
         "issue": "2",
@@ -1366,7 +1658,7 @@
             "Ostriker, Eve C.",
             "Li, Miao"
         ],
-        "citations": 34,
+        "citations": 38,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ab8474",
         "issue": "1",
@@ -1379,6 +1671,26 @@
         "year": "2020"
     },
     {
+        "arxiv": null,
+        "authors": [
+            "Choi, Woorak",
+            "Chung, Aeree",
+            "Kim, Chang-goo",
+            "Lee, Bumhyun"
+        ],
+        "citations": 0,
+        "doctype": "article",
+        "doi": null,
+        "issue": "1",
+        "page": null,
+        "pub": "The Bulletin of The Korean Astronomical Society",
+        "pubdate": "2020-00-00",
+        "title": "Deep polarization observations of a ram pressure stripped galaxy, NGC 4522",
+        "url": "http://adsabs.harvard.edu/abs/2020BKAS...45...65C",
+        "volume": "45",
+        "year": "2020"
+    },
+    {
         "arxiv": "1902.09547",
         "authors": [
             "El-Badry, Kareem",
@@ -1387,7 +1699,7 @@
             "Quataert, Eliot",
             "Weisz, Daniel R."
         ],
-        "citations": 73,
+        "citations": 89,
         "doctype": "article",
         "doi": "10.1093/mnras/stz2773",
         "issue": "2",
@@ -1423,7 +1735,7 @@
             "Choi, Steve K.",
             "Flauger, Raphael"
         ],
-        "citations": 37,
+        "citations": 40,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ab29f2",
         "issue": "2",
@@ -1453,6 +1765,26 @@
         "year": "2019"
     },
     {
+        "arxiv": null,
+        "authors": [
+            "Choi, Woorak",
+            "Lee, Bumhyun",
+            "Chung, Aeree",
+            "Kim, Chang-Goo"
+        ],
+        "citations": 0,
+        "doctype": "article",
+        "doi": null,
+        "issue": "1",
+        "page": null,
+        "pub": "The Bulletin of The Korean Astronomical Society",
+        "pubdate": "2019-00-00",
+        "title": "Cool gas and star formation properties of ram pressure stripped galaxy NGC 4522: Insights from the TIGRESS simulation",
+        "url": "http://adsabs.harvard.edu/abs/2019BKAS...44...77C",
+        "volume": "44",
+        "year": "2019"
+    },
+    {
         "arxiv": "1806.06065",
         "authors": [
             "Murray, Claire E.",
@@ -1463,7 +1795,7 @@
             "Babler, Brian",
             "Kim, Chang-Goo"
         ],
-        "citations": 95,
+        "citations": 108,
         "doctype": "article",
         "doi": "10.3847/1538-4365/aad81a",
         "issue": "2",
@@ -1482,7 +1814,7 @@
             "Ostriker, Eve C.",
             "Kim, Chang-Goo"
         ],
-        "citations": 59,
+        "citations": 63,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aab9af",
         "issue": "1",
@@ -1500,7 +1832,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 173,
+        "citations": 188,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aaa5ff",
         "issue": "2",
@@ -1513,12 +1845,50 @@
         "year": "2018"
     },
     {
+        "arxiv": null,
+        "authors": [
+            "Choi, Woorak",
+            "Kim, Chang-Goo",
+            "Chung, Aeree"
+        ],
+        "citations": 0,
+        "doctype": "article",
+        "doi": null,
+        "issue": "1",
+        "page": null,
+        "pub": "The Bulletin of The Korean Astronomical Society",
+        "pubdate": "2018-00-00",
+        "title": "The impact of ram pressure on the multi-phase ISM probed by the TIGRESS simulation",
+        "url": "http://adsabs.harvard.edu/abs/2018BKAS...43...62C",
+        "volume": "43",
+        "year": "2018"
+    },
+    {
+        "arxiv": null,
+        "authors": [
+            "Choi, Woorak",
+            "Kim, Chang-Goo",
+            "Chung, Aeree"
+        ],
+        "citations": 0,
+        "doctype": "article",
+        "doi": null,
+        "issue": "2",
+        "page": null,
+        "pub": "The Bulletin of The Korean Astronomical Society",
+        "pubdate": "2018-00-00",
+        "title": "The impact of ram pressure on the multi-phase ism probed by the TIGRESS simulation",
+        "url": "http://adsabs.harvard.edu/abs/2018BKAS...43R..33C",
+        "volume": "43",
+        "year": "2018"
+    },
+    {
         "arxiv": "1612.03918",
         "authors": [
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 199,
+        "citations": 236,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aa8599",
         "issue": "2",
@@ -1542,7 +1912,7 @@
             "Dickey, John M.",
             "Babler, Brian"
         ],
-        "citations": 25,
+        "citations": 26,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aa5d12",
         "issue": "1",
@@ -1566,7 +1936,7 @@
             "McKee, Christopher F.",
             "Stone, James M."
         ],
-        "citations": 50,
+        "citations": 53,
         "doctype": "article",
         "doi": "10.1093/mnras/stw2647",
         "issue": "1",
@@ -1585,7 +1955,7 @@
             "Ostriker, Eve C.",
             "Raileanu, Roberta"
         ],
-        "citations": 154,
+        "citations": 168,
         "doctype": "article",
         "doi": "10.3847/1538-4357/834/1/25",
         "issue": "1",
@@ -1600,11 +1970,29 @@
     {
         "arxiv": null,
         "authors": [
+            "Seon, Kwang-Il",
+            "Kim, Chang-Goo"
+        ],
+        "citations": 0,
+        "doctype": "article",
+        "doi": null,
+        "issue": "2",
+        "page": null,
+        "pub": "The Bulletin of The Korean Astronomical Society",
+        "pubdate": "2017-00-00",
+        "title": "Ly-alpha Radiative Transfer and The Wouthuysen-Field effect",
+        "url": "http://adsabs.harvard.edu/abs/2017BKAS...42...43S",
+        "volume": "42",
+        "year": "2017"
+    },
+    {
+        "arxiv": null,
+        "authors": [
             "Park, Ji-Hoon",
             "Kim, Chang-Goo",
             "Lee, Young-Ho"
         ],
-        "citations": 2,
+        "citations": 3,
         "doctype": "article",
         "doi": "10.1002/er.3432",
         "issue": "5",
@@ -1635,12 +2023,30 @@
         "year": "2016"
     },
     {
+        "arxiv": null,
+        "authors": [
+            "Kim, Chang-Goo",
+            "Ostriker, Eve C."
+        ],
+        "citations": 0,
+        "doctype": "article",
+        "doi": null,
+        "issue": "2",
+        "page": null,
+        "pub": "The Bulletin of The Korean Astronomical Society",
+        "pubdate": "2016-00-00",
+        "title": "Self-Regulation of Star Formation Rates: an Equilibrium Vieww",
+        "url": "http://adsabs.harvard.edu/abs/2016BKAS...41R..55K",
+        "volume": "41",
+        "year": "2016"
+    },
+    {
         "arxiv": "1511.00010",
         "authors": [
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 106,
+        "citations": 109,
         "doctype": "article",
         "doi": "10.1088/0004-637X/815/1/67",
         "issue": "1",
@@ -1679,7 +2085,7 @@
             "Hyun, Beom Soo",
             "Lee, Young Ho"
         ],
-        "citations": 10,
+        "citations": 16,
         "doctype": "article",
         "doi": "10.1016/j.renene.2014.11.022",
         "issue": null,
@@ -1697,7 +2103,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 358,
+        "citations": 393,
         "doctype": "article",
         "doi": "10.1088/0004-637X/802/2/99",
         "issue": "2",
@@ -1752,7 +2158,7 @@
             "Ostriker, Eve C.",
             "Kim, Woong-Tae"
         ],
-        "citations": 52,
+        "citations": 56,
         "doctype": "article",
         "doi": "10.1088/0004-637X/786/1/64",
         "issue": "1",
@@ -1789,7 +2195,7 @@
             "Ostriker, Eve C.",
             "Kim, Woong-Tae"
         ],
-        "citations": 195,
+        "citations": 200,
         "doctype": "article",
         "doi": "10.1088/0004-637X/776/1/1",
         "issue": "1",
@@ -1820,13 +2226,31 @@
         "year": "2013"
     },
     {
+        "arxiv": null,
+        "authors": [
+            "Kim, Chang-Goo",
+            "Basu, Shantanu"
+        ],
+        "citations": 0,
+        "doctype": "article",
+        "doi": null,
+        "issue": "1",
+        "page": null,
+        "pub": "Bulletin of Korean Astronomical Society",
+        "pubdate": "2013-00-00",
+        "title": "Long-Term Evolution of Decaying MHD Turbulence in the Multiphase ISM",
+        "url": "http://adsabs.harvard.edu/abs/2013BKAS...38Q..47K",
+        "volume": "38",
+        "year": "2013"
+    },
+    {
         "arxiv": "1109.0028",
         "authors": [
             "Kim, Chang-Goo",
             "Kim, Woong-Tae",
             "Ostriker, Eve C."
         ],
-        "citations": 147,
+        "citations": 156,
         "doctype": "article",
         "doi": "10.1088/0004-637X/743/1/25",
         "issue": "1",
@@ -1836,6 +2260,25 @@
         "title": "Regulation of Star Formation Rates in Multiphase Galactic Disks: Numerical Tests of the Thermal/Dynamical Equilibrium Model",
         "url": "http://adsabs.harvard.edu/abs/2011ApJ...743...25K",
         "volume": "743",
+        "year": "2011"
+    },
+    {
+        "arxiv": null,
+        "authors": [
+            "Kim, Chang-Goo",
+            "Kim, Woong-Tae",
+            "Ostriker, Eve C."
+        ],
+        "citations": 0,
+        "doctype": "article",
+        "doi": null,
+        "issue": "1",
+        "page": null,
+        "pub": "Bulletin of Korean Astronomical Society",
+        "pubdate": "2011-00-00",
+        "title": "Thermal and Dynamical Evolution of a Gaseous Medium and Star Formation in Disk Galaxies",
+        "url": "http://adsabs.harvard.edu/abs/2011BKAS...36...54K",
+        "volume": "36",
         "year": "2011"
     },
     {
@@ -1877,6 +2320,63 @@
         "year": "2010"
     },
     {
+        "arxiv": null,
+        "authors": [
+            "Kim, Chang-Goo",
+            "Kim, Woong-Tae",
+            "Ostriker, Eve C."
+        ],
+        "citations": 0,
+        "doctype": "article",
+        "doi": null,
+        "issue": "2",
+        "page": null,
+        "pub": "Bulletin of Korean Astronomical Society",
+        "pubdate": "2010-00-00",
+        "title": "Regulation of Star Formation Rates in Multiphase Galactic Disks: Numerical Tests of the Thermal/Dynamical Equilibrium Model",
+        "url": "http://adsabs.harvard.edu/abs/2010BKAS...35R..74K",
+        "volume": "35",
+        "year": "2010"
+    },
+    {
+        "arxiv": null,
+        "authors": [
+            "Kim, Chang-Goo",
+            "Kim, Woong-Tae",
+            "Ostriker, Eve C."
+        ],
+        "citations": 0,
+        "doctype": "article",
+        "doi": null,
+        "issue": "1",
+        "page": null,
+        "pub": "Bulletin of Korean Astronomical Society",
+        "pubdate": "2010-00-00",
+        "title": "Regulation of Star Formation in Turbulent, Multiphase Interstellar Media",
+        "url": "http://adsabs.harvard.edu/abs/2010BKAS...35...66K",
+        "volume": "35",
+        "year": "2010"
+    },
+    {
+        "arxiv": null,
+        "authors": [
+            "Kim, Chang-Goo",
+            "Kim, Woong-Tae",
+            "Ostriker, Eve C."
+        ],
+        "citations": 0,
+        "doctype": "article",
+        "doi": null,
+        "issue": "1",
+        "page": null,
+        "pub": "Bulletin of Korean Astronomical Society",
+        "pubdate": "2009-00-00",
+        "title": "Galactic Spiral Shocks with Thermal Instability in Self-Gravitating, Vertically-Stratified Disks",
+        "url": "http://adsabs.harvard.edu/abs/2009BKAS...34...63K",
+        "volume": "34",
+        "year": "2009"
+    },
+    {
         "arxiv": "0804.0139",
         "authors": [
             "Kim, Chang-Goo",
@@ -1896,13 +2396,70 @@
         "year": "2008"
     },
     {
+        "arxiv": null,
+        "authors": [
+            "Kim, Chang-Goo",
+            "Kim, Woong-Tae",
+            "Ostriker, Eve C."
+        ],
+        "citations": 0,
+        "doctype": "article",
+        "doi": null,
+        "issue": "2",
+        "page": null,
+        "pub": "Bulletin of Korean Astronomical Society",
+        "pubdate": "2007-00-00",
+        "title": "Galactic Spiral Shocks with Thermal Instability: Preliminary Results on 2-Dimensional Simulations",
+        "url": "http://adsabs.harvard.edu/abs/2007BKAS...32...52K",
+        "volume": "32",
+        "year": "2007"
+    },
+    {
+        "arxiv": null,
+        "authors": [
+            "Hong, Jong-Suk",
+            "Kim, Chang-Goo",
+            "Lee, Hyung-Mok"
+        ],
+        "citations": 0,
+        "doctype": "article",
+        "doi": null,
+        "issue": "2",
+        "page": null,
+        "pub": "Bulletin of Korean Astronomical Society",
+        "pubdate": "2007-00-00",
+        "title": "Benchmark Test for GRAPE",
+        "url": "http://adsabs.harvard.edu/abs/2007BKAS...32...80H",
+        "volume": "32",
+        "year": "2007"
+    },
+    {
+        "arxiv": null,
+        "authors": [
+            "Kim, Chang-Goo",
+            "Kim, Woong-Tae",
+            "Ostriker, Eve C."
+        ],
+        "citations": 0,
+        "doctype": "article",
+        "doi": null,
+        "issue": "1",
+        "page": 45,
+        "pub": "Bulletin of Korean Astronomical Society",
+        "pubdate": "2007-00-00",
+        "title": "Galactic Spiral Shocks with Thermal Instability",
+        "url": "http://adsabs.harvard.edu/abs/2007BKAS...32Q..45K",
+        "volume": "32",
+        "year": "2007"
+    },
+    {
         "arxiv": "astro-ph/0608161",
         "authors": [
             "Kim, Chang-Goo",
             "Kim, Woong-Tae",
             "Ostriker, Eve C."
         ],
-        "citations": 46,
+        "citations": 48,
         "doctype": "article",
         "doi": "10.1086/508160",
         "issue": "1",
@@ -1913,5 +2470,43 @@
         "url": "http://adsabs.harvard.edu/abs/2006ApJ...649L..13K",
         "volume": "649",
         "year": "2006"
+    },
+    {
+        "arxiv": null,
+        "authors": [
+            "Kim, Chang-Goo",
+            "Kim, Woong-Tae",
+            "Ostriker, Eve C."
+        ],
+        "citations": 0,
+        "doctype": "article",
+        "doi": null,
+        "issue": "2",
+        "page": null,
+        "pub": "Bulletin of Korean Astronomical Society",
+        "pubdate": "2005-00-00",
+        "title": "Instability Of Galactic Spiral Shocks",
+        "url": "http://adsabs.harvard.edu/abs/2005BKAS...30...47K",
+        "volume": "30",
+        "year": "2005"
+    },
+    {
+        "arxiv": null,
+        "authors": [
+            "Kim, Woong-Tae",
+            "Ostriker, Eve C.",
+            "Kim, Chang-Goo"
+        ],
+        "citations": 0,
+        "doctype": "article",
+        "doi": null,
+        "issue": "1",
+        "page": null,
+        "pub": "Bulletin of Korean Astronomical Society",
+        "pubdate": "2005-00-00",
+        "title": "Vertical Structures of Galactic Spiral Shocks",
+        "url": "http://adsabs.harvard.edu/abs/2005BKAS...30...38K",
+        "volume": "30",
+        "year": "2005"
     }
 ]
