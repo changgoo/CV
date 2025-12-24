@@ -16,7 +16,8 @@ students = {
     "lancaster":slice(2020,2023),
     "gong":slice(2015,2018),
     "guo":slice(2020,2025),
-    "linzer":slice(2020,2025)
+    "linzer":slice(2020,2025),
+    "hix":slice(2024,2030)
 }
 
 _JOURNAL_MAP = {
@@ -209,7 +210,7 @@ def get_paper_items(papers, periods=None):
             if "kraft" in paper["authors"][0].lower():
                 continue
             else:
-                entry += ", ApJ submitted"
+                entry += ", ApJ accepted"
 
         if periods is not None:
             d1 = date.fromisoformat(periods[0])
@@ -366,3 +367,20 @@ if __name__ == "__main__":
 
     with open(path.join(dirpath, "pubs_arxiv_2023-2024.tex"), "w") as fp:
          fp.write("\n\n".join(unrefs))
+
+    # publications acknowledging a specific grant
+    pubs_file = path.join(dirpath, "pubs_nasa.json")
+    if not path.exists(pubs_file):
+        raise FileNotFoundError(
+            "File 'pubs.json' not found - run get_pubs.py "
+            "before running this script."
+        )
+
+    with open(pubs_file, "r") as f:
+        pubs = json.loads(f.read())
+
+    papers = filter_papers(pubs)
+    refs, unrefs, first_refs, sec_refs, other_refs = get_paper_items(papers)
+
+    with open(path.join(dirpath, "pubs_nasa.tex"), "w") as fp:
+         fp.write("\n\n".join(refs+unrefs))

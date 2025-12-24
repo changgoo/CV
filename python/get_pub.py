@@ -3,15 +3,16 @@ import ads
 import sys,os
 
 
-def get_all_papers(author):
-    papers = ads.SearchQuery(q='orcid:0000-0003-2896-3725'
-                             ' or =author:"{}"'.format(author),
-                             sort="date",
-                             max_pages=128,
-                             fl=["id", "title", "author", "doi", "year",
-                                 "pubdate", "pub", "volume", "issue", "page",
-                                 "identifier", "doctype", "citation_count",
-                                 "bibcode"])
+def get_all_papers(author="Kim,Chang-Goo", papers=None):
+    if papers is None:
+        papers = ads.SearchQuery(q='orcid:0000-0003-2896-3725'
+                                ' or =author:"{}"'.format(author),
+                                sort="date",
+                                max_pages=128,
+                                fl=["id", "title", "author", "doi", "year",
+                                    "pubdate", "pub", "volume", "issue", "page",
+                                    "identifier", "doctype", "citation_count",
+                                    "bibcode"])
 
     all_dicts = []
     for paper in papers:
@@ -53,7 +54,7 @@ def get_all_papers(author):
 
 
 if __name__ == '__main__':
-    papers = get_all_papers("Kim,Chang-Goo")
+    papers = get_all_papers(author="Kim,Chang-Goo")
 
     dirpath = os.path.dirname(__file__)
 
@@ -105,3 +106,17 @@ if __name__ == '__main__':
         with open('yonsei.csv','w') as fp:
             for out in output:
                 fp.write(out)
+
+    # for nasa
+    pquery=ads.SearchQuery(ack="80NSSC22K0717",
+                           sort="date",
+                           max_pages=128,
+                           fl=["id", "title", "author", "doi", "year",
+                                "pubdate", "pub", "volume", "issue", "page",
+                                "identifier", "doctype", "citation_count",
+                                "bibcode"])
+    papers = get_all_papers(papers=pquery)
+
+    with open(os.path.join(dirpath,"..","data","pubs_nasa.json"), "w") as f:
+        json.dump(papers, f, sort_keys=True,
+                  indent=4, separators=(",", ": "))
