@@ -18,7 +18,7 @@
             "Ma, Yik Ki",
             "Marchal, Antoine",
             "McClure-Griffiths, Naomi M.",
-            "Muller, Eric",
+            "Muller, Eric G. M.",
             "Nguyen, Hiep",
             "Stanimirovi\u0107, Sne\u017eana",
             "Van Loon, Jacco Th."
@@ -53,7 +53,7 @@
             "Bennett, Jake S.",
             "Weinberger, Rainer"
         ],
-        "citations": 6,
+        "citations": 5,
         "doctype": "article",
         "doi": "10.1093/mnras/staf1720",
         "issue": "2",
@@ -73,7 +73,7 @@
             "Ostriker, Eve",
             "Kim, Chang-Goo"
         ],
-        "citations": 1,
+        "citations": 2,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ae08b1",
         "issue": "1",
@@ -158,7 +158,7 @@
             "Fielding, Drummond B.",
             "Kim, Chang-Goo"
         ],
-        "citations": 7,
+        "citations": 9,
         "doctype": "article",
         "doi": "10.3847/1538-4357/adf283",
         "issue": "1",
@@ -177,7 +177,7 @@
             "Kim, Chang-Goo",
             "Stone, James M."
         ],
-        "citations": 8,
+        "citations": 9,
         "doctype": "article",
         "doi": "10.3847/1538-4357/adeb85",
         "issue": "1",
@@ -380,7 +380,7 @@
             "Ostriker, Eve C.",
             "Somerville, Rachel S."
         ],
-        "citations": 12,
+        "citations": 13,
         "doctype": "article",
         "doi": "10.1093/mnras/stae2589",
         "issue": "4",
@@ -424,7 +424,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 7,
+        "citations": 8,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ad7733",
         "issue": "2",
@@ -530,7 +530,7 @@
             "Quataert, Eliot",
             "Kim, Chang-Goo"
         ],
-        "citations": 40,
+        "citations": 41,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ad5fe7",
         "issue": "2",
@@ -653,7 +653,7 @@
             "Kim, Chang-Goo",
             "Jiang, Yan-Fei"
         ],
-        "citations": 32,
+        "citations": 33,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ad1e5c",
         "issue": "1",
@@ -716,7 +716,7 @@
             "Somerville, Rachel S.",
             "Fielding, Drummond B."
         ],
-        "citations": 45,
+        "citations": 46,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ad09e1",
         "issue": "2",
@@ -792,7 +792,7 @@
             "Roman-Duval, Julia",
             "Murray, Claire E."
         ],
-        "citations": 9,
+        "citations": 10,
         "doctype": "eprint",
         "doi": "10.48550/arXiv.2310.17694",
         "issue": null,
@@ -817,7 +817,7 @@
             "Kim, Jeong-Gyu",
             "Halevi, Goni"
         ],
-        "citations": 7,
+        "citations": 8,
         "doctype": "article",
         "doi": "10.3847/1538-4365/aceaf9",
         "issue": "2",
@@ -909,7 +909,7 @@
             "Gong, Munan",
             "Ostriker, Eve C."
         ],
-        "citations": 62,
+        "citations": 63,
         "doctype": "article",
         "doi": "10.3847/1538-4357/acbd3a",
         "issue": "1",
@@ -950,7 +950,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 54,
+        "citations": 55,
         "doctype": "article",
         "doi": "10.3847/1538-4365/ac9b1d",
         "issue": "1",
@@ -1096,7 +1096,7 @@
             "Greene, Jenny E.",
             "Lancaster, Lachlan"
         ],
-        "citations": 15,
+        "citations": 16,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ac9673",
         "issue": "2",
@@ -1114,7 +1114,7 @@
             "Ostriker, Eve C.",
             "Kim, Chang-Goo"
         ],
-        "citations": 101,
+        "citations": 103,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ac7de2",
         "issue": "2",
@@ -1255,7 +1255,7 @@
             "Westmeier, T.",
             "Whiting, M. T."
         ],
-        "citations": 38,
+        "citations": 39,
         "doctype": "article",
         "doi": "10.1017/pasa.2021.59",
         "issue": null,
@@ -1308,7 +1308,7 @@
             "Murray, Norman",
             "Wetzel, Andrew"
         ],
-        "citations": 144,
+        "citations": 146,
         "doctype": "article",
         "doi": "10.1093/mnras/stab2714",
         "issue": "2",
@@ -1348,7 +1348,7 @@
             "Hill, J. Colin",
             "Hensley, Brandon S."
         ],
-        "citations": 65,
+        "citations": 67,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ac0e35",
         "issue": "1",
@@ -1541,7 +1541,7 @@
             "Genel, Shy",
             "Hernquist, Lars"
         ],
-        "citations": 57,
+        "citations": 59,
         "doctype": "article",
         "doi": "10.3847/2041-8213/abc252",
         "issue": "2",
@@ -1561,7 +1561,7 @@
             "Kim, Chang-Goo",
             "Kim, Jeong-Gyu"
         ],
-        "citations": 89,
+        "citations": 90,
         "doctype": "article",
         "doi": "10.3847/1538-4357/abbdab",
         "issue": "2",
@@ -1617,7 +1617,7 @@
             "Hernquist, Lars",
             "Pandya, Viraj"
         ],
-        "citations": 126,
+        "citations": 132,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aba962",
         "issue": "1",
@@ -1673,7 +1673,7 @@
             "Ostriker, Eve C.",
             "Kim, Chang-Goo"
         ],
-        "citations": 29,
+        "citations": 30,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ab989c",
         "issue": "1",
@@ -1712,7 +1712,7 @@
             "Ostriker, Eve C.",
             "Kim, Chang-Goo"
         ],
-        "citations": 36,
+        "citations": 37,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ab9abd",
         "issue": "2",
@@ -1733,7 +1733,7 @@
             "Ostriker, Eve C.",
             "Li, Miao"
         ],
-        "citations": 39,
+        "citations": 40,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ab8474",
         "issue": "1",
@@ -1810,7 +1810,7 @@
             "Choi, Steve K.",
             "Flauger, Raphael"
         ],
-        "citations": 40,
+        "citations": 41,
         "doctype": "article",
         "doi": "10.3847/1538-4357/ab29f2",
         "issue": "2",
@@ -1889,7 +1889,7 @@
             "Ostriker, Eve C.",
             "Kim, Chang-Goo"
         ],
-        "citations": 63,
+        "citations": 64,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aab9af",
         "issue": "1",
@@ -1907,7 +1907,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 191,
+        "citations": 192,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aaa5ff",
         "issue": "2",
@@ -1963,7 +1963,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 240,
+        "citations": 243,
         "doctype": "article",
         "doi": "10.3847/1538-4357/aa8599",
         "issue": "2",
@@ -2030,7 +2030,7 @@
             "Ostriker, Eve C.",
             "Raileanu, Roberta"
         ],
-        "citations": 168,
+        "citations": 169,
         "doctype": "article",
         "doi": "10.3847/1538-4357/834/1/25",
         "issue": "1",
@@ -2178,7 +2178,7 @@
             "Kim, Chang-Goo",
             "Ostriker, Eve C."
         ],
-        "citations": 397,
+        "citations": 401,
         "doctype": "article",
         "doi": "10.1088/0004-637X/802/2/99",
         "issue": "2",
@@ -2325,7 +2325,7 @@
             "Kim, Woong-Tae",
             "Ostriker, Eve C."
         ],
-        "citations": 157,
+        "citations": 159,
         "doctype": "article",
         "doi": "10.1088/0004-637X/743/1/25",
         "issue": "1",
